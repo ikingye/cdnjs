@@ -1,16 +1,5 @@
 {
-  "name": "ace",
-  "filename": "ace.js",
-  "version": "1.4.11",
-  "description": "Ace (Ajax.org Cloud9 Editor)",
-  "homepage": "http://ace.ajax.org/",
-  "keywords": [
-    "code",
-    "editor"
-  ],
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ajaxorg/ace-builds.git",
     "fileMap": [
       {
         "basePath": "src-min",
@@ -18,11 +7,22 @@
           "**/*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/ajaxorg/ace-builds.git"
   },
+  "description": "Ace (Ajax.org Cloud9 Editor)",
+  "filename": "ace.js",
+  "homepage": "http://ace.ajax.org/",
+  "keywords": [
+    "code",
+    "editor"
+  ],
+  "license": "BSD",
+  "name": "ace",
   "repository": {
     "type": "git",
     "url": "https://github.com/ajaxorg/ace-builds/"
   },
-  "license": "BSD"
+  "version": "test"
 }

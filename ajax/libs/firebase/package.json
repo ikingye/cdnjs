@@ -1,26 +1,6 @@
 {
   "author": "Firebase <firebase-support@google.com> (https://firebase.google.com/)",
-  "description": "Firebase JavaScript library for web and Node.js",
-  "filename": "firebase.js",
-  "homepage": "https://firebase.google.com/",
-  "keywords": [
-    "authentication",
-    "database",
-    "Firebase",
-    "firebase",
-    "realtime",
-    "storage"
-  ],
-  "license": "Apache-2.0",
-  "name": "firebase",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/firebase/firebase-js-sdk.git"
-  },
-  "version": "0.800.3",
   "autoupdate": {
-    "source": "npm",
-    "target": "firebase",
     "fileMap": [
       {
         "basePath": "",
@@ -40,6 +20,26 @@
           "firebase*.+(js|map)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "firebase"
+  },
+  "description": "Firebase JavaScript library for web and Node.js",
+  "filename": "firebase.js",
+  "homepage": "https://firebase.google.com/",
+  "keywords": [
+    "authentication",
+    "database",
+    "Firebase",
+    "firebase",
+    "realtime",
+    "storage"
+  ],
+  "license": "Apache-2.0",
+  "name": "firebase",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/firebase/firebase-js-sdk.git"
+  },
+  "version": "7.15.5"
 }

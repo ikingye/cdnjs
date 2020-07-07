@@ -1,13 +1,24 @@
 {
-  "name": "color-thief",
-  "filename": "color-thief.min.js",
-  "version": "2.3.0",
   "author": {
-    "name": "Lokesh Dhakar",
     "email": "lokesh.dhakar@gmail.com",
+    "name": "Lokesh Dhakar",
     "url": "http://lokeshdhakar.com/"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.mjs?(.map))"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/lokesh/color-thief.git"
+  },
   "description": "Get the dominant color or color palette from an image.",
+  "filename": "color-thief.min.js",
+  "homepage": "http://lokeshdhakar.com/projects/color-thief/",
   "keywords": [
     "color",
     "palette",
@@ -17,22 +28,11 @@
     "photo",
     "canvas"
   ],
-  "homepage": "http://lokeshdhakar.com/projects/color-thief/",
+  "license": "MIT",
+  "name": "color-thief",
   "repository": {
     "type": "git",
     "url": "https://github.com/lokesh/color-thief.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/lokesh/color-thief.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.mjs?(.map))"
-        ]
-      }
-    ]
-  }
+  "version": "2.3.2"
 }

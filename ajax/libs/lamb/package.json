@@ -1,8 +1,23 @@
 {
-  "name": "lamb",
-  "filename": "lamb.min.js",
+  "author": {
+    "email": "andrea.scartabelli@gmail.com",
+    "name": "Andrea Scartabelli"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/ascartabelli/lamb.git"
+  },
   "description": "A lightweight, and docile, JavaScript library to help embracing functional programming.",
-  "version": "0.58.0",
+  "filename": "lamb.min.js",
+  "homepage": "https://ascartabelli.github.io/lamb/",
   "keywords": [
     "functional programming",
     "utility",
@@ -14,26 +29,11 @@
     "es5",
     "javascript"
   ],
-  "homepage": "https://ascartabelli.github.io/lamb/",
-  "author": {
-    "email": "andrea.scartabelli@gmail.com",
-    "name": "Andrea Scartabelli"
-  },
+  "license": "MIT",
+  "name": "lamb",
   "repository": {
     "type": "git",
     "url": "https://github.com/ascartabelli/lamb.git"
   },
-  "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/ascartabelli/lamb.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "0.59.0"
 }

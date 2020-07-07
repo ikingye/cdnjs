@@ -1,5 +1,17 @@
 {
   "author": "Gunjan Datta <github@dattabase.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.@(js|ts)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "gd-sprest"
+  },
   "description": "A JavaScript library to interact with the SharePoint REST API.",
   "filename": "gd-sprest.min.js",
   "homepage": "https://dattabase.com/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "https://github.com/gunjandatta/sprest"
   },
-  "version": "5.8.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "gd-sprest",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.@(js|ts)"
-        ]
-      }
-    ]
-  }
+  "version": "5.8.6"
 }

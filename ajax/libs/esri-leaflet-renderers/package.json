@@ -1,5 +1,17 @@
 {
   "author": "Rachel Nehmer <rnehmer@esri.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "esri-leaflet-renderers"
+  },
   "description": "esri-leaflet plugin for rendering",
   "filename": "esri-leaflet-renderers.js",
   "homepage": "https://esri.github.io/esri-leaflet",
@@ -19,17 +31,5 @@
     "type": "git",
     "url": "git@github.com:Esri/esri-leaflet-renderers.git"
   },
-  "version": "2.1.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "esri-leaflet-renderers",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.1.2"
 }

@@ -1,5 +1,17 @@
 {
   "author": "Konstantin Kaefer (mail@kkaefer.com)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.flow|test.js|index.js*)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "mapbox-gl"
+  },
   "description": "A WebGL interactive maps library",
   "filename": "mapbox-gl.js",
   "homepage": "https://www.mapbox.com/mapbox-gl-js/api/",
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "git://github.com/mapbox/mapbox-gl-js.git"
   },
-  "version": "1.11.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "mapbox-gl",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.flow|test.js|index.js*)"
-        ]
-      }
-    ]
-  }
+  "version": "1.11.1"
 }

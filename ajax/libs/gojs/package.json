@@ -2,6 +2,18 @@
   "author": {
     "name": "Northwoods Software"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "release",
+        "files": [
+          "**/*.+(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "gojs"
+  },
   "description": "Interactive diagrams, charts, and graphs, such as trees, flowcharts, orgcharts, UML, BPMN, or business diagrams",
   "filename": "go.js",
   "homepage": "http://gojs.net",
@@ -120,17 +132,5 @@
     "type": "git",
     "url": "git+https://github.com/NorthwoodsSoftware/GoJS.git"
   },
-  "version": "2.1.19",
-  "autoupdate": {
-    "source": "npm",
-    "target": "gojs",
-    "fileMap": [
-      {
-        "basePath": "release",
-        "files": [
-          "**/*.+(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "2.1.20"
 }

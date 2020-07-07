@@ -1,5 +1,17 @@
 {
   "author": "erik <errorrik@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.md|*.gz)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "san"
+  },
   "description": "A Flexible JavaScript Component Framework",
   "filename": "san.min.js",
   "homepage": "https://baidu.github.io/san/",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "https://github.com/baidu/san.git"
   },
-  "version": "3.9.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "san",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.md|*.gz)"
-        ]
-      }
-    ]
-  }
+  "version": "3.9.1"
 }

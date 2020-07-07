@@ -3,6 +3,18 @@
     "name": "afc163",
     "url": "https://github.com/afc163"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.!(less)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "antd"
+  },
   "description": "An UI design language",
   "filename": "antd.min.js",
   "homepage": "http://ant.design/",
@@ -23,17 +35,5 @@
     "type": "git",
     "url": "https://github.com/ant-design/ant-design"
   },
-  "version": "4.4.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "antd",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.!(less)"
-        ]
-      }
-    ]
-  }
+  "version": "4.4.1"
 }

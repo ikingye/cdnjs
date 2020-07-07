@@ -1,5 +1,17 @@
 {
   "author": "Tony Spiro <tspiro@tonyspiro.com> (http://tonyspiro.com/)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "cosmicjs*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "cosmicjs"
+  },
   "description": "The official client module for Cosmic JS. This module helps you easily add dynamic content to your website or application.",
   "filename": "cosmicjs.browser.min.js",
   "homepage": "https://cosmicjs.com/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/cosmicjs/cosmicjs-node.git"
   },
-  "version": "3.2.48",
-  "autoupdate": {
-    "source": "npm",
-    "target": "cosmicjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "cosmicjs*"
-        ]
-      }
-    ]
-  }
+  "version": "3.2.48"
 }

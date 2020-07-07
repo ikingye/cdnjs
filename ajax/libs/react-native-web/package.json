@@ -2,6 +2,18 @@
   "author": {
     "name": "Nicolas Gallagher"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-native-web"
+  },
   "description": "React Native for Web",
   "filename": "index.js",
   "homepage": "https://github.com/necolas/react-native-web#readme",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git://github.com/necolas/react-native-web.git"
   },
-  "version": "0.13.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-native-web",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.js"
-        ]
-      }
-    ]
-  }
+  "version": "0.13.3"
 }

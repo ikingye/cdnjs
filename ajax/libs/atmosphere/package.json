@@ -1,8 +1,18 @@
 {
-  "name": "atmosphere",
-  "filename": "atmosphere.min.js",
-  "version": "2.2.9",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "lib",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "atmosphere.js"
+  },
   "description": "A browser-side JavaScript client for the Atmosphere",
+  "filename": "atmosphere.min.js",
   "keywords": [
     "ws",
     "websocket",
@@ -12,21 +22,11 @@
     "streaming",
     "longpolling"
   ],
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/Atmosphere/atmosphere-javascript.git",
-    "fileMap": [
-      {
-        "basePath": "modules/javascript/src/main/webapp/javascript",
-        "files": [
-          "atmosphere.js"
-        ]
-      }
-    ]
-  },
+  "license": "Apache-2.0",
+  "name": "atmosphere",
   "repository": {
     "type": "git",
     "url": "https://github.com/Atmosphere/atmosphere-javascript.git"
   },
-  "license": "Apache-2.0"
+  "version": "3.0.5"
 }

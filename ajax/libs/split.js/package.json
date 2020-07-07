@@ -1,5 +1,17 @@
 {
   "author": "Nathan Cahill <nathan@nathancahill.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.es.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "split.js"
+  },
   "description": "2kb unopinionated utility for resizeable split views",
   "filename": "split.min.js",
   "homepage": "https://split.js.org/",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git://github.com/nathancahill/split.git"
   },
-  "version": "1.6.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "split.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.es.js)"
-        ]
-      }
-    ]
-  }
+  "version": "1.6.2"
 }

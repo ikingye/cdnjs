@@ -1,23 +1,6 @@
 {
-  "name": "vuefire",
-  "filename": "vuefire.min.js",
-  "version": "2.2.2",
-  "description": "Firebase bindings for Vue.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/vuejs/vuefire.git"
-  },
-  "keywords": [
-    "vue",
-    "mixin",
-    "firebase",
-    "realtime"
-  ],
   "author": "Evan You",
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "vuefire",
     "fileMap": [
       {
         "basePath": "dist",
@@ -25,6 +8,23 @@
           "**/!(*.common.js|*.cjs.js|*.es.js|*.ts)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "vuefire"
+  },
+  "description": "Firebase bindings for Vue.js",
+  "filename": "vuefire.min.js",
+  "keywords": [
+    "vue",
+    "mixin",
+    "firebase",
+    "realtime"
+  ],
+  "license": "MIT",
+  "name": "vuefire",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuejs/vuefire.git"
+  },
+  "version": "2.2.3"
 }

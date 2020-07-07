@@ -1,5 +1,17 @@
 {
   "author": "Stephen J. Collings <stevoland@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "react-bootstrap"
+  },
   "description": "Bootstrap 3 components built with React",
   "filename": "react-bootstrap.min.js",
   "homepage": "http://react-bootstrap.github.io/",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "https://github.com/react-bootstrap/react-bootstrap"
   },
-  "version": "1.1.0-rc.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "react-bootstrap",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.1.1"
 }

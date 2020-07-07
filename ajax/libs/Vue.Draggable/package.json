@@ -1,26 +1,9 @@
 {
-  "name": "Vue.Draggable",
-  "version": "15.0.0",
-  "filename": "vuedraggable.min.js",
-  "description": "Vue component allowing drag-and-drop sorting in sync with View-Model. Based on Sortable.js.",
-  "keywords": [
-    "vue",
-    "list",
-    "drag",
-    "drop"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SortableJS/Vue.Draggable.git"
-  },
-  "license": "MIT",
   "author": {
-    "name": "David Desmaisons",
-    "email": "desmaisons_david@hotmail.com"
+    "email": "desmaisons_david@hotmail.com",
+    "name": "David Desmaisons"
   },
   "autoupdate": {
-    "source": "git",
-    "target": "https://github.com/SortableJS/Vue.Draggable.git",
     "fileMap": [
       {
         "basePath": "dist",
@@ -28,6 +11,23 @@
           "**/!(*.html|vuedraggable.common.js*)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "git",
+    "target": "https://github.com/SortableJS/Vue.Draggable.git"
+  },
+  "description": "Vue component allowing drag-and-drop sorting in sync with View-Model. Based on Sortable.js.",
+  "filename": "vuedraggable.min.js",
+  "keywords": [
+    "vue",
+    "list",
+    "drag",
+    "drop"
+  ],
+  "license": "MIT",
+  "name": "Vue.Draggable",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SortableJS/Vue.Draggable.git"
+  },
+  "version": "2.24.0"
 }
