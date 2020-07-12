@@ -32,5 +32,5 @@
     "type": "git",
     "url": "https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom"
   },
-  "version": "5.2.0"
+  "version": "0.0.0-experimental-ffd8c7d0"
 }

@@ -3,6 +3,18 @@
     "email": "alexei@boronine.com",
     "name": "Alexei Boronine"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "husl*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "husl"
+  },
   "description": "Human-friendly HSL",
   "filename": "husl.min.js",
   "homepage": "http://www.husl-colors.org",
@@ -20,17 +32,5 @@
     "type": "git",
     "url": "git+ssh://git@github.com/husl-colors/husl.git"
   },
-  "version": "6.0.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "husl",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "husl*.js"
-        ]
-      }
-    ]
-  }
+  "version": "6.0.1"
 }

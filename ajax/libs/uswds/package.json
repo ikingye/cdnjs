@@ -1,5 +1,17 @@
 {
   "author": "18F",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.md|*.scss)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "uswds"
+  },
   "description": "Open source UI components and visual style guide for U.S. government websites",
   "filename": "js/uswds.min.js",
   "keywords": [
@@ -11,17 +23,5 @@
     "type": "git",
     "url": "git+https://github.com/18F/web-design-standards.git"
   },
-  "version": "2.7.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "uswds",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.md|*.scss)"
-        ]
-      }
-    ]
-  }
+  "version": "2.8.0"
 }

@@ -29,5 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/drcmda/react-spring.git"
   },
-  "version": "8.0.27"
+  "version": "9.0.0-rc.3"
 }

@@ -27,5 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/vuejs/vuex.git"
   },
-  "version": "3.5.1"
+  "version": "4.0.0-beta.4"
 }

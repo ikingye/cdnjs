@@ -1,5 +1,17 @@
 {
   "author": "https://github.com/orgs/antvis/people",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@antv/g2"
+  },
   "description": "the Grammar of Graphics in Javascript",
   "filename": "g2.min.js",
   "homepage": "https://g2.antv.vision",
@@ -13,17 +25,5 @@
     "type": "git",
     "url": "git+https://github.com/antvis/g2.git"
   },
-  "version": "4.0.12",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@antv/g2",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "4.0.13-beta.1"
 }

@@ -1,14 +1,20 @@
 {
-  "name": "whitestorm.js",
-  "filename": "whs.min.js",
-  "version": "2.1.9",
-  "homepage": "https://whsjs.readme.io/docs",
   "author": "Alexander Buzin",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/WhitestormJS/whs.js"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "build",
+        "files": [
+          "**/!(whs.module.js*)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "whs"
   },
   "description": "Framework for developing 3D web apps with physics.",
+  "filename": "whs.min.js",
+  "homepage": "https://whsjs.readme.io/docs",
   "keywords": [
     "whitestorm.js",
     "three.js",
@@ -23,16 +29,10 @@
     "whs.js"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "whs",
-    "fileMap": [
-      {
-        "basePath": "build",
-        "files": [
-          "**/!(whs.module.js*)"
-        ]
-      }
-    ]
-  }
+  "name": "whitestorm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhitestormJS/whs.js"
+  },
+  "version": "2.2.0-beta.2"
 }

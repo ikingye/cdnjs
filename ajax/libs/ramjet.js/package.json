@@ -1,22 +1,8 @@
 {
-  "name": "ramjet.js",
-  "filename": "ramjet.umd.min.js",
-  "description": "Transform DOM elements into each another with smooth transitions",
-  "version": "0.5.0",
   "author": {
     "name": "Rich Harris"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/rich-harris/ramjet.git"
-  },
-  "keywords": [
-    "ramjet.js"
-  ],
   "autoupdate": {
-    "source": "npm",
-    "target": "ramjet",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +10,20 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "ramjet"
+  },
+  "description": "Transform DOM elements into each another with smooth transitions",
+  "filename": "ramjet.umd.min.js",
+  "keywords": [
+    "ramjet.js"
+  ],
+  "license": "MIT",
+  "name": "ramjet.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rich-harris/ramjet.git"
+  },
+  "version": "0.6.0-alpha1"
 }

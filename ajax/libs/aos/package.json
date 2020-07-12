@@ -1,15 +1,20 @@
 {
-  "name": "aos",
-  "filename": "aos.js",
-  "version": "2.3.4",
-  "description": "Animate on scroll library",
-  "homepage": "https://michalsnik.github.io/aos/",
   "author": "Michał Sajnóg <michal.sajnog@hotmail.com>",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/michalsnik/aos.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "!(*.esm.js|*.cjs.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "aos"
   },
+  "description": "Animate on scroll library",
+  "filename": "aos.js",
+  "homepage": "https://michalsnik.github.io/aos/",
   "keywords": [
     "scroll",
     "css3",
@@ -20,16 +25,11 @@
     "wow",
     "animate"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "aos",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "!(*.esm.js|*.cjs.js)"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "aos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/michalsnik/aos.git"
+  },
+  "version": "3.0.0-beta.6"
 }

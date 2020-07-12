@@ -23,5 +23,5 @@
     "type": "git",
     "url": "git://github.com/getsentry/raven-js.git"
   },
-  "version": "5.19.1"
+  "version": "3.26.2"
 }

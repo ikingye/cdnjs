@@ -1,5 +1,17 @@
 {
   "author": "Robert Wagner <rwwagner90@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.@(js|css|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "shepherd.js"
+  },
   "description": "Guide your users through a tour of your app.",
   "filename": "js/shepherd.min.js",
   "homepage": "https://shepherdjs.dev",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/shipshapecode/shepherd.git"
   },
-  "version": "8.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "shepherd.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.@(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "8.0.2"
 }

@@ -1,13 +1,19 @@
 {
-  "name": "restangular",
-  "description": "Restful Resources service for AngularJS apps",
-  "version": "1.6.1",
-  "filename": "restangular.min.js",
   "author": "Martin Gontovnikas <martin@gon.to>",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mgonto/restangular.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "restangular"
   },
+  "description": "Restful Resources service for AngularJS apps",
+  "filename": "restangular.min.js",
   "keywords": [
     "angular",
     "client",
@@ -18,16 +24,10 @@
     "api"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "restangular",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*"
-        ]
-      }
-    ]
-  }
+  "name": "restangular",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mgonto/restangular.git"
+  },
+  "version": "1.6.0"
 }

@@ -27,5 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/cosmicjs/cosmicjs-node.git"
   },
-  "version": "3.2.48"
+  "version": "3.3.0-next-1"
 }

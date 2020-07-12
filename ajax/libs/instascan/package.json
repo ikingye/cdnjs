@@ -34,5 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/schmich/instascan.git"
   },
-  "version": "1.0.0"
+  "version": "2.0.0-rc.4"
 }

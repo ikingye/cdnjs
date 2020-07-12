@@ -4,6 +4,18 @@
     "name": "Damien Sorel",
     "url": "https://github.com/mistic100"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "bootstrap-confirmation*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "bootstrap-confirmation2"
+  },
   "description": "Bootstrap plugin for on-place confirm boxes using Popover",
   "filename": "bootstrap-confirmation.min.js",
   "homepage": "https://mistic100.github.io/Bootstrap-Confirmation",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git://github.com/mistic100/Bootstrap-Confirmation.git"
   },
-  "version": "4.1.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "bootstrap-confirmation2",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "bootstrap-confirmation*"
-        ]
-      }
-    ]
-  }
+  "version": "2.4.4"
 }

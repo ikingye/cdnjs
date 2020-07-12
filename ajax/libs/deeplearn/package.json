@@ -22,5 +22,5 @@
     "type": "git",
     "url": "git+https://github.com/PAIR-code/deeplearnjs.git"
   },
-  "version": "0.5.1"
+  "version": "0.6.0-alpha7"
 }

@@ -27,5 +27,5 @@
     "type": "git",
     "url": "git+ssh://git@github.com/videojs/m3u8-parser.git"
   },
-  "version": "4.4.0"
+  "version": "4.4.2"
 }

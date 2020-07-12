@@ -3,10 +3,9 @@
   "autoupdate": {
     "fileMap": [
       {
-        "basePath": "",
+        "basePath": "src",
         "files": [
-          "tabcomplete.js",
-          "tabcomplete.min.js"
+          "tabcomplete?(.min).js"
         ]
       }
     ],
@@ -29,5 +28,5 @@
     "type": "git",
     "url": "https://github.com/erming/tabcomplete"
   },
-  "version": "1.5.3"
+  "version": "1.4.0"
 }

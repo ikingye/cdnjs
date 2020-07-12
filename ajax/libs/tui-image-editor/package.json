@@ -35,5 +35,5 @@
     "type": "git",
     "url": "git+https://github.com/nhn/tui.image-editor.git"
   },
-  "version": "3.9.0"
+  "version": "3.10.0-alpha.0"
 }

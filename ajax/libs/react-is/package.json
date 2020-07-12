@@ -26,5 +26,5 @@
     "type": "git",
     "url": "git+https://github.com/facebook/react.git"
   },
-  "version": "16.13.1"
+  "version": "0.0.0-experimental-7f28234f8"
 }

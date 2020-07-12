@@ -1,5 +1,17 @@
 {
   "author": "Yaffle (https://github.com/Yaffle)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "eventsource*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "event-source-polyfill"
+  },
   "description": "A polyfill for http://www.w3.org/TR/eventsource/ ",
   "filename": "eventsource.min.js",
   "keywords": [
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git://github.com/Yaffle/EventSource.git"
   },
-  "version": "1.0.15",
-  "autoupdate": {
-    "source": "npm",
-    "target": "event-source-polyfill",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "eventsource*"
-        ]
-      }
-    ]
-  }
+  "version": "0.0.9"
 }

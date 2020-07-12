@@ -1,5 +1,17 @@
 {
   "author": "Algolia <support@algolia.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.gz)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "instantsearch.js"
+  },
   "description": "instantsearch.js is a library of widgets to build high performance instant search experiences using Algolia",
   "filename": "instantsearch.production.min.js",
   "keywords": [
@@ -11,17 +23,5 @@
     "type": "git",
     "url": "https://github.com/algolia/instantsearch.js"
   },
-  "version": "4.7.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "instantsearch.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.gz)"
-        ]
-      }
-    ]
-  }
+  "version": "4.7.0-experimental-typescript.0"
 }

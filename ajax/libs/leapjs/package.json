@@ -1,4 +1,16 @@
 {
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "leap.min.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "leapjs"
+  },
   "description": "JavaScript client for the Leap Motion Controller",
   "filename": "leap.min.js",
   "keywords": [
@@ -11,17 +23,5 @@
     "type": "git",
     "url": "https://github.com/leapmotion/leapjs.git"
   },
-  "version": "0.6.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "leapjs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "leap.min.js"
-        ]
-      }
-    ]
-  }
+  "version": "0.6.1"
 }

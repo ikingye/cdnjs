@@ -2,6 +2,20 @@
   "author": {
     "name": "Uri Shaked"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "angular-spinner.js",
+          "angular-spinner.min.js",
+          "angular-spinner.min.js.map"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "angular-spinner"
+  },
   "description": "Angular directive to show an animated spinner (using spin.js)",
   "filename": "angular-spinner.min.js",
   "keywords": [
@@ -15,19 +29,5 @@
     "type": "git",
     "url": "git://github.com/urish/angular-spinner.git"
   },
-  "version": "1.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "angular-spinner",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "angular-spinner.js",
-          "angular-spinner.min.js",
-          "angular-spinner.min.js.map"
-        ]
-      }
-    ]
-  }
+  "version": "0.8.1"
 }

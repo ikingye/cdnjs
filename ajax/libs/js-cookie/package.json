@@ -30,5 +30,5 @@
     "type": "git",
     "url": "git://github.com/js-cookie/js-cookie.git"
   },
-  "version": "3.0.0-rc.0"
+  "version": "2.2.1"
 }
