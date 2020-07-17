@@ -3,6 +3,18 @@
     "email": "wadus@cartodb.com",
     "name": "CartoDB"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "carto.*.+(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@carto/carto.js"
+  },
   "description": "CARTO.js is a JavaScript library to create custom location intelligence applications that leverage the power of CARTO. It is the library that powers Builder and it is part of the Engine ecosystem.",
   "filename": "carto.min.js",
   "homepage": "https://cartodb.com/",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "https://github.com/CartoDB/carto.js.git"
   },
-  "version": "4.2.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@carto/carto.js",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "carto.*.+(js|map)"
-        ]
-      }
-    ]
-  }
+  "version": "4.2.1"
 }

@@ -1,5 +1,17 @@
 {
   "author": "akira-cn",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "spritejs.*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "spritejs"
+  },
   "description": "A cross platform high-performance graphics system.",
   "filename": "spritejs.min.js",
   "homepage": "http://spritejs.org",
@@ -22,17 +34,5 @@
     "type": "git",
     "url": "https://github.com/spritejs/spritejs.git"
   },
-  "version": "3.7.21",
-  "autoupdate": {
-    "source": "npm",
-    "target": "spritejs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "spritejs.*"
-        ]
-      }
-    ]
-  }
+  "version": "3.7.22"
 }

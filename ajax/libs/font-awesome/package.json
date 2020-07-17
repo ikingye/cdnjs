@@ -4,6 +4,18 @@
     "name": "Dave Gandy",
     "web": "https://twitter.com/davegandy"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "+(css|js|webfonts|sprites|svgs)/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "@fortawesome/fontawesome-free"
+  },
   "description": "The iconic SVG, font, and CSS toolkit",
   "filename": "css/all.min.css",
   "homepage": "https://fontawesome.com/",
@@ -26,17 +38,5 @@
     "type": "git",
     "url": "git://github.com/FortAwesome/Font-Awesome.git"
   },
-  "version": "5.13.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "@fortawesome/fontawesome-free",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "+(css|js|webfonts|sprites|svgs)/*"
-        ]
-      }
-    ]
-  }
+  "version": "5.14.0"
 }

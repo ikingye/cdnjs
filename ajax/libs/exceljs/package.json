@@ -1,5 +1,17 @@
 {
   "author": "Guyon Roche",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "!(es5|es3){,**/*}"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "exceljs"
+  },
   "description": "Excel Workbook Manager - Read and Write xlsx and csv Files.",
   "filename": "exceljs.min.js",
   "keywords": [
@@ -33,17 +45,5 @@
     "type": "git",
     "url": "git+https://github.com/guyonroche/exceljs.git"
   },
-  "version": "4.1.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "exceljs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "!(es5|es3){,**/*}"
-        ]
-      }
-    ]
-  }
+  "version": "4.1.1"
 }

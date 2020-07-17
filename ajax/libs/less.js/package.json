@@ -3,6 +3,18 @@
     "email": "self@cloudhead.net",
     "name": "Alexis Sellier"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "less.!(cjs.)js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "less"
+  },
   "description": "Leaner CSS",
   "filename": "less.min.js",
   "homepage": "http://lesscss.org/",
@@ -21,17 +33,5 @@
     "type": "git",
     "url": "https://github.com/less/less.js"
   },
-  "version": "3.11.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "less",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "less.!(cjs.)js"
-        ]
-      }
-    ]
-  }
+  "version": "3.12.2"
 }

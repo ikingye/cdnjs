@@ -29,5 +29,5 @@
     "type": "git",
     "url": "git+ssh://git@github.com/valor-software/ng2-bootstrap.git"
   },
-  "version": "1.6.3"
+  "version": "1.6.2"
 }

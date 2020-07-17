@@ -39,5 +39,5 @@
     "type": "git",
     "url": "git+https://github.com/ondras/rot.js.git"
   },
-  "version": "2.1.4"
+  "version": "0.6.0"
 }

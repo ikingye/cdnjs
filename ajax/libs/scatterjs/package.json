@@ -22,5 +22,5 @@
     "type": "git",
     "url": "git://github.com/GetScatter/scatter-js.git"
   },
-  "version": "2.5.1"
+  "version": "scatterjs-core@2.7.18"
 }

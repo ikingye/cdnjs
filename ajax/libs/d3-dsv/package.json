@@ -29,5 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/d3/d3-dsv.git"
   },
-  "version": "1.2.0"
+  "version": "1.0.8"
 }

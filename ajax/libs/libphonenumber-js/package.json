@@ -3,6 +3,18 @@
     "email": "halt.hammerzeit.at@gmail.com",
     "name": "Halt Hammerzeit"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "bundle",
+        "files": [
+          "libphonenumber-js*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "libphonenumber-js"
+  },
   "description": "A simpler (and smaller) rewrite of Google Android's popular libphonenumber library",
   "filename": "libphonenumber-js.min.js",
   "homepage": "https://halt-hammerzeit.github.io/libphonenumber-js/",
@@ -24,17 +36,5 @@
     "type": "git",
     "url": "https://github.com/halt-hammerzeit/libphonenumber-js"
   },
-  "version": "1.7.54",
-  "autoupdate": {
-    "source": "npm",
-    "target": "libphonenumber-js",
-    "fileMap": [
-      {
-        "basePath": "bundle",
-        "files": [
-          "libphonenumber-js*"
-        ]
-      }
-    ]
-  }
+  "version": "1.7.55"
 }

@@ -1,13 +1,19 @@
 {
-  "name": "hyperapp",
-  "filename": "hyperapp.js",
-  "description": "1kb JavaScript library for building modern UI applications",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/hyperapp/hyperapp.git"
-  },
   "author": "Jorge Bucaran",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.!(*gz)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "hyperapp"
+  },
+  "description": "1kb JavaScript library for building modern UI applications",
+  "filename": "hyperapp.js",
   "keywords": [
     "hyperx",
     "hypertext",
@@ -17,17 +23,11 @@
     "hyperscript",
     "vanilla"
   ],
-  "version": "2.0.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "hyperapp",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.!(*gz)"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "hyperapp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyperapp/hyperapp.git"
+  },
+  "version": "2.0.5"
 }

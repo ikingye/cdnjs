@@ -4,6 +4,18 @@
     "name": "Jason Dobry",
     "url": "http://www.pseudobry.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.ts|*.flow.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "js-data"
+  },
   "description": "Robust, framework-agnostic in-memory data store.",
   "filename": "js-data.min.js",
   "homepage": "http://www.js-data.io",
@@ -31,17 +43,5 @@
     "type": "git",
     "url": "https://github.com/js-data/js-data.git"
   },
-  "version": "4.0.0-beta.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "js-data",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.ts|*.flow.js)"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.8"
 }

@@ -3,6 +3,18 @@
     "name": "OOjs UI Team and other contributors",
     "url": "https://phabricator.wikimedia.org/diffusion/GOJU/browse/master/AUTHORS.txt"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.!(txt|md|less)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "oojs-ui"
+  },
   "description": "User interface classes built on the OOjs framework.",
   "filename": "oojs-ui.min.js",
   "homepage": "https://www.mediawiki.org/wiki/OOjs_UI",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "https://phabricator.wikimedia.org/diffusion/GOJU/"
   },
-  "version": "0.39.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "oojs-ui",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.!(txt|md|less)"
-        ]
-      }
-    ]
-  }
+  "version": "0.39.3"
 }

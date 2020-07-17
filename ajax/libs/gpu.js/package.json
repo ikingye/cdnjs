@@ -27,5 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/gpujs/gpu.js.git"
   },
-  "version": "2.9.4"
+  "version": "1.10.4"
 }

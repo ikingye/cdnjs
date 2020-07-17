@@ -1,5 +1,17 @@
 {
   "author": "1000.tech <info@1000.tech>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "godlike*.+(css|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "godlike.css"
+  },
   "description": "CSS for layout standardization and usability of web applications",
   "filename": "godlike.min.css",
   "keywords": [
@@ -18,17 +30,5 @@
     "type": "git",
     "url": "git+https://github.com/1000tech/godlike.css.git"
   },
-  "version": "3.7.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "godlike.css",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "godlike*.+(css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "3.7.7"
 }

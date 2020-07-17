@@ -1,14 +1,20 @@
 {
-  "name": "uiv",
-  "filename": "uiv.min.js",
-  "version": "0.35.1",
-  "description": "Bootstrap 3 components implemented by Vue 2.",
   "author": "wxsm",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/wxsms/uiv.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.esm.*|*.common.*|*.gz)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "uiv"
   },
-  "license": "MIT",
+  "description": "Bootstrap 3 components implemented by Vue 2.",
+  "filename": "uiv.min.js",
+  "homepage": "https://uiv.wxsm.space/",
   "keywords": [
     "Bootstrap",
     "Bootstrap 3",
@@ -47,17 +53,11 @@
     "Typeahead",
     "Auto complete"
   ],
-  "homepage": "https://uiv.wxsm.space/",
-  "autoupdate": {
-    "source": "npm",
-    "target": "uiv",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.esm.*|*.common.*|*.gz)"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "uiv",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wxsms/uiv.git"
+  },
+  "version": "0.36.0"
 }

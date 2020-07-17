@@ -1,22 +1,6 @@
 {
-  "name": "mithril",
-  "version": "2.0.4",
-  "filename": "mithril.min.js",
-  "description": "A framework for building brilliant applications",
-  "homepage": "http://mithril.js.org",
-  "license": "MIT",
-  "keywords": [
-    "mvc",
-    "browser"
-  ],
   "author": "Leo Horie <leohorie@hotmail.com> (http://lhorie.blogspot.com/)",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/MithrilJS/mithril.js.git"
-  },
   "autoupdate": {
-    "source": "npm",
-    "target": "mithril",
     "fileMap": [
       {
         "basePath": "",
@@ -27,6 +11,22 @@
           "stream/stream.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "mithril"
+  },
+  "description": "A framework for building brilliant applications",
+  "filename": "mithril.min.js",
+  "homepage": "http://mithril.js.org",
+  "keywords": [
+    "mvc",
+    "browser"
+  ],
+  "license": "MIT",
+  "name": "mithril",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MithrilJS/mithril.js.git"
+  },
+  "version": "1.1.7"
 }

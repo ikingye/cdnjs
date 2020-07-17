@@ -1,5 +1,17 @@
 {
   "author": "thednp",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "kute.js"
+  },
   "description": "A minimal Native Javascript animation engine.",
   "filename": "kute.min.js",
   "homepage": "http://thednp.github.io/kute.js",
@@ -15,17 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/thednp/kute.js.git"
   },
-  "version": "2.0.10",
-  "autoupdate": {
-    "source": "npm",
-    "target": "kute.js",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.0.11"
 }

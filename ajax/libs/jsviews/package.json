@@ -1,18 +1,26 @@
 {
-  "name": "jsviews",
-  "version": "1.0.6",
-  "filename": "jsviews.min.js",
-  "description": "Next-generation MVVM and MVP framework - built on top of JsRender templates. Bringing templates to life...",
   "author": {
     "name": "Boris Moore",
     "url": "https://github.com/borismoore"
   },
-  "homepage": "http://www.jsviews.com/#jsviews",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/borismoore/jsviews.git"
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "jquery.observable*",
+          "jquery.views*",
+          "jsrender*",
+          "jsviews*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jsviews"
   },
-  "license": "MIT",
+  "description": "Next-generation MVVM and MVP framework - built on top of JsRender templates. Bringing templates to life...",
+  "filename": "jsviews.min.js",
+  "homepage": "http://www.jsviews.com/#jsviews",
   "keywords": [
     "jsviews",
     "jsrender",
@@ -24,19 +32,11 @@
     "templates",
     "template"
   ],
-  "autoupdate": {
-    "source": "npm",
-    "target": "jsviews",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "jquery.observable*",
-          "jquery.views*",
-          "jsrender*",
-          "jsviews*"
-        ]
-      }
-    ]
-  }
+  "license": "MIT",
+  "name": "jsviews",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borismoore/jsviews.git"
+  },
+  "version": "1.0.7"
 }

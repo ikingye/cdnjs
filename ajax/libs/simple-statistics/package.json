@@ -1,5 +1,18 @@
 {
   "author": "Tom MacWright <tom@macwright.org> (http://macwright.org/)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "simple_statistics.min.js",
+          "simple_statistics.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "simple-statistics"
+  },
   "description": "Simple Statistics",
   "filename": "simple_statistics.min.js",
   "keywords": [
@@ -18,18 +31,5 @@
     "type": "git",
     "url": "git://github.com/simple-statistics/simple-statistics.git"
   },
-  "version": "7.1.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "simple-statistics",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "simple_statistics.min.js",
-          "simple_statistics.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.1"
 }

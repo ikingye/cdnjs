@@ -1,16 +1,6 @@
 {
-  "name": "stats.js",
-  "filename": "Stats.min.js",
-  "version": "r16",
-  "description": "JavaScript Performance Monitor",
-  "homepage": "https://github.com/mrdoob/stats.js/",
-  "keywords": [
-    "fps",
-    "framerate"
-  ],
+  "author": "Mr.doob <info@mrdoob.com>",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/mrdoob/stats.js.git",
     "fileMap": [
       {
         "basePath": "src",
@@ -18,12 +8,22 @@
           "Stats.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/mrdoob/stats.js.git"
   },
+  "description": "JavaScript Performance Monitor",
+  "filename": "Stats.min.js",
+  "homepage": "https://github.com/mrdoob/stats.js/",
+  "keywords": [
+    "fps",
+    "framerate"
+  ],
+  "license": "MIT",
+  "name": "stats.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/mrdoob/stats.js/"
   },
-  "license": "MIT",
-  "author": "Mr.doob <info@mrdoob.com>"
+  "version": "r17"
 }

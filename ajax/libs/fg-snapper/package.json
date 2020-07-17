@@ -3,6 +3,18 @@
     "name": "Scott Jehl, Filament Group, Inc.",
     "url": "https://filamentgroup.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "fg-snapper"
+  },
   "description": "A CSS Snap-Points based carousel (and lightweight polyfill)",
   "filename": "snapper.min.js",
   "keywords": [
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git://github.com/filamentgroup/snapper.git"
   },
-  "version": "4.0.0-2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "fg-snapper",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.4.0"
 }

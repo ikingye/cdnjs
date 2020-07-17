@@ -1,5 +1,29 @@
 {
   "author": "Chris Rudmin",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "dist-unminified",
+        "files": [
+          "**/*"
+        ]
+      },
+      {
+        "basePath": "",
+        "files": [
+          "libopus.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "opus-recorder"
+  },
   "description": "A library for recording opus encoded audio",
   "filename": "recorder.min.js",
   "keywords": [
@@ -22,29 +46,5 @@
     "type": "git",
     "url": "git://github.com/chris-rudmin/opus-recorder.git"
   },
-  "version": "6.2.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "opus-recorder",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "dist-unminified",
-        "files": [
-          "**/*"
-        ]
-      },
-      {
-        "basePath": "",
-        "files": [
-          "libopus.js"
-        ]
-      }
-    ]
-  }
+  "version": "7.0.0"
 }

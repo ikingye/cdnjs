@@ -325,7 +325,6 @@ node_modules/
 /ajax/libs/*/*/**/*.sublime-*
 /ajax/libs/*/*/**/*.md
 /ajax/libs/*/*/**/*.markdown
-/ajax/libs/*/*/**/*.mjs
 /ajax/libs/*/*/**/*.sh
 /ajax/libs/*/*/**/*.flow
 /ajax/libs/*/*/**/*.git

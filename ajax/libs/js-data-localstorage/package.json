@@ -1,16 +1,23 @@
 {
-  "name": "js-data-localstorage",
-  "description": "localStorage adapter for js-data.",
-  "version": "2.3.2",
-  "homepage": "http://www.js-data.io/docs/dslocalstorageadapter",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/js-data/js-data-localstorage.git"
-  },
   "author": {
-    "name": "Jason Dobry",
-    "email": "jason.dobry@gmail.com"
+    "email": "jason.dobry@gmail.com",
+    "name": "Jason Dobry"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.+(js|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "js-data-localstorage"
+  },
+  "description": "localStorage adapter for js-data.",
+  "filename": "js-data-localstorage.min.js",
+  "homepage": "http://www.js-data.io/docs/dslocalstorageadapter",
   "keywords": [
     "data",
     "datastore",
@@ -19,18 +26,11 @@
     "adapter",
     "localstorage"
   ],
-  "filename": "js-data-localstorage.min.js",
   "license": "MIT",
-  "autoupdate": {
-    "source": "npm",
-    "target": "js-data-localstorage",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.+(js|map)"
-        ]
-      }
-    ]
-  }
+  "name": "js-data-localstorage",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/js-data/js-data-localstorage.git"
+  },
+  "version": "2.3.2"
 }

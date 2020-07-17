@@ -1,24 +1,6 @@
 {
-  "name": "babel-standalone",
-  "version": "6.26.0",
-  "description": "Standalone build of Babel for use in non-Node.js environments. Similar to the (now deprecacted) babel-browser",
-  "filename": "babel.min.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Daniel15/babel-standalone.git"
-  },
   "author": "Daniel Lo Nigro <daniel@dan.cx> (http://dan.cx/)",
-  "license": "MIT",
-  "keywords": [
-    "babel",
-    "babeljs",
-    "6to5",
-    "transpile",
-    "transpiler"
-  ],
   "autoupdate": {
-    "source": "npm",
-    "target": "babel-standalone",
     "fileMap": [
       {
         "basePath": "",
@@ -27,6 +9,24 @@
           "babel.min.js"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "babel-standalone"
+  },
+  "description": "Standalone build of Babel for use in non-Node.js environments. Similar to the (now deprecacted) babel-browser",
+  "filename": "babel.min.js",
+  "keywords": [
+    "babel",
+    "babeljs",
+    "6to5",
+    "transpile",
+    "transpiler"
+  ],
+  "license": "MIT",
+  "name": "babel-standalone",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniel15/babel-standalone.git"
+  },
+  "version": "6.26.0"
 }

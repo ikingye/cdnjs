@@ -3,6 +3,18 @@
     "name": "Tyler Benziger",
     "url": "http://tybenz.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "lego.min.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "legojs"
+  },
   "description": "Lego JS",
   "filename": "lego.min.js",
   "keywords": [
@@ -14,17 +26,5 @@
     "type": "git",
     "url": "https://github.com/tybenz/presentation-js-legos.git"
   },
-  "version": "1.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "legojs",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "lego.min.js"
-        ]
-      }
-    ]
-  }
+  "version": "0.0.1"
 }

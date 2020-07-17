@@ -1,0 +1,48 @@
+{
+  "author": "MDBootstrap",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "js",
+        "files": [
+          "mdb*"
+        ]
+      },
+      {
+        "basePath": "css",
+        "files": [
+          "mdb*"
+        ]
+      },
+      {
+        "basePath": "src",
+        "files": [
+          "scss/**/*.scss"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "mdb-ui-kit"
+  },
+  "description": "Material Design for Bootstrap (MDB) is a powerful Material Design UI KIT for most popular HTML, CSS, and JS framework - Bootstrap.",
+  "filename": "mdb.min.js",
+  "homepage": "https://mdbootstrap.com/docs/standard/",
+  "keywords": [
+    "material",
+    "design",
+    "bootstrap",
+    "mdbootstrap",
+    "mdb",
+    "framework",
+    "css",
+    "mobile-first",
+    "responsive"
+  ],
+  "license": "MIT",
+  "name": "mdb-ui-kit",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mdbootstrap/mdb-ui-kit"
+  },
+  "version": "1.0.0-alpha3"
+}

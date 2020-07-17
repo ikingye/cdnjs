@@ -1,11 +1,23 @@
 {
-  "name": "vuikit",
-  "version": "0.8.10",
-  "description": "UIkit with all the power of Vue",
   "author": {
     "name": "ZOOlanders",
     "url": "http://www.zoolanders.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.esm.js|*.cjs.js)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "vuikit"
+  },
+  "description": "UIkit with all the power of Vue",
+  "filename": "vuikit.min.js",
+  "homepage": "https://vuikit.github.io/vuikit",
   "keywords": [
     "library",
     "vue",
@@ -14,22 +26,10 @@
     "vuikit"
   ],
   "license": "MIT",
+  "name": "vuikit",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/vuikit/vuikit.git"
   },
-  "homepage": "https://vuikit.github.io/vuikit",
-  "filename": "vuikit.min.js",
-  "autoupdate": {
-    "source": "npm",
-    "target": "vuikit",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.esm.js|*.cjs.js)"
-        ]
-      }
-    ]
-  }
+  "version": "0.8.10"
 }

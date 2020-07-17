@@ -27,5 +27,5 @@
     "type": "git",
     "url": "git+https://github.com/snabbdom/snabbdom.git"
   },
-  "version": "1.0.1"
+  "version": "0.7.4"
 }

@@ -4,6 +4,18 @@
     "Jonathan Reinink <jonathan@reinink.ca>",
     "David Hemphill <davidlee.hemphill@gmail.com>"
   ],
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "tailwindcss"
+  },
   "description": "A utility-first CSS framework for rapidly building custom user interfaces.",
   "filename": "tailwind.min.css",
   "homepage": "https://tailwindcss.com",
@@ -22,17 +34,5 @@
     "type": "git",
     "url": "https://github.com/tailwindcss/tailwindcss"
   },
-  "version": "1.4.6",
-  "autoupdate": {
-    "source": "npm",
-    "target": "tailwindcss",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "1.5.1"
 }

@@ -1,5 +1,17 @@
 {
   "author": "Knut Sveidqvist",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/!(*.html)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "mermaid"
+  },
   "description": "Markdownish syntax for generating flowcharts, sequence diagrams, class diagrams and gantt charts.",
   "filename": "mermaid.min.js",
   "keywords": [
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "https://github.com/knsv/mermaid"
   },
-  "version": "8.5.2",
-  "autoupdate": {
-    "source": "npm",
-    "target": "mermaid",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/!(*.html)"
-        ]
-      }
-    ]
-  }
+  "version": "8.6.0"
 }

@@ -1,5 +1,17 @@
 {
   "author": "Matt Mueller <mattmuelle@gmail.com> (mat.io)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "**/*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "cheerio"
+  },
   "description": "Tiny, fast, and elegant implementation of core jQuery designed specifically for the server",
   "filename": "index.js",
   "homepage": "https://github.com/cheeriojs/cheerio#readme",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git://github.com/cheeriojs/cheerio.git"
   },
-  "version": "1.0.0-rc.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "cheerio",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "**/*.js"
-        ]
-      }
-    ]
-  }
+  "version": "0.22.0"
 }

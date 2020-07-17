@@ -1,5 +1,17 @@
 {
   "author": "",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.@(js|css|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "uppy"
+  },
   "description": "Extensible JavaScript file upload widget with support for drag&drop, resumable uploads, previews, restrictions, file processing/encoding, remote providers like Instagram, Dropbox, Google Drive, S3 and more :dog:",
   "filename": "uppy.min.js",
   "homepage": "https://uppy.io",
@@ -22,17 +34,5 @@
     "type": "git",
     "url": "git+https://github.com/transloadit/uppy.git"
   },
-  "version": "1.16.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "uppy",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.@(js|css|map)"
-        ]
-      }
-    ]
-  }
+  "version": "1.17.0"
 }

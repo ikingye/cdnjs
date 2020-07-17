@@ -3,6 +3,19 @@
     "name": "Mike Bostock",
     "url": "http://bost.ocks.org/mike"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "queue.min.js",
+          "queue.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "queue-async"
+  },
   "description": "A little helper for asynchronous JavaScript.",
   "filename": "queue.min.js",
   "keywords": [
@@ -16,18 +29,5 @@
     "type": "git",
     "url": "https://github.com/mbostock/queue.git"
   },
-  "version": "1.2.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "queue-async",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "queue.min.js",
-          "queue.js"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.7"
 }

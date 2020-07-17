@@ -1,15 +1,6 @@
 {
-  "name": "randomcolor",
-  "filename": "randomColor.min.js",
-  "version": "0.5.4",
-  "description": "For generating attractive random colors",
-  "keywords": [
-    "color",
-    "random"
-  ],
+  "author": "David Merfield",
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/davidmerfield/randomColor.git",
     "fileMap": [
       {
         "basePath": "",
@@ -17,13 +8,22 @@
           "randomColor.js"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/davidmerfield/randomColor.git"
   },
+  "description": "For generating attractive random colors",
+  "filename": "randomColor.min.js",
   "homepage": "http://llllll.li/randomColor/",
+  "keywords": [
+    "color",
+    "random"
+  ],
+  "license": "MIT",
+  "name": "randomcolor",
   "repository": {
     "type": "git",
     "url": "https://github.com/davidmerfield/randomColor"
   },
-  "license": "MIT",
-  "author": "David Merfield"
+  "version": "0.6.1"
 }

@@ -3,6 +3,18 @@
     "email": "ariya.hidayat@gmail.com",
     "name": "Ariya Hidayat"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "esprima*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "esprima"
+  },
   "description": "ECMAScript parsing infrastructure for multipurpose analysis",
   "filename": "esprima.min.js",
   "homepage": "http://esprima.org",
@@ -19,17 +31,5 @@
     "type": "git",
     "url": "https://github.com/jquery/esprima.git"
   },
-  "version": "4.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "esprima",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "esprima*"
-        ]
-      }
-    ]
-  }
+  "version": "2.7.3"
 }

@@ -2,6 +2,19 @@
   "author": {
     "name": "Jarosław Foksa"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "*.js",
+          "themes/*.css"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "xel"
+  },
   "description": "Widget toolkit for building native-like Electron, NW.js and Chrome apps",
   "filename": "xel.min.js",
   "homepage": "https://xel-toolkit.org/",
@@ -38,18 +51,5 @@
     "type": "git",
     "url": "git+https://github.com/jarek-foksa/xel.git"
   },
-  "version": "0.0.220",
-  "autoupdate": {
-    "source": "npm",
-    "target": "xel",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "*.js",
-          "themes/*.css"
-        ]
-      }
-    ]
-  }
+  "version": "0.0.223"
 }

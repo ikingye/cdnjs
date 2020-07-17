@@ -30,5 +30,5 @@
     "url": "git+https://github.com/aspnet/AspNetCore.git"
   },
   "title": "ASP.NET Core SignalR JavaScript Client",
-  "version": "3.1.5"
+  "version": "3.1.6"
 }

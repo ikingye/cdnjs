@@ -1,22 +1,5 @@
 {
-  "name": "line-chart",
-  "version": "2.0.28",
-  "filename": "LineChart.min.js",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/n3-charts/line-chart.git"
-  },
-  "keywords": [
-    "JavaScript",
-    "AngularJS",
-    "D3",
-    "chart"
-  ],
-  "license": "MIT",
-  "description": "Awesome charts for AngularJS.",
   "autoupdate": {
-    "source": "npm",
-    "target": "n3-charts",
     "fileMap": [
       {
         "basePath": "build",
@@ -24,6 +7,23 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "n3-charts"
+  },
+  "description": "Awesome charts for AngularJS.",
+  "filename": "LineChart.min.js",
+  "keywords": [
+    "JavaScript",
+    "AngularJS",
+    "D3",
+    "chart"
+  ],
+  "license": "MIT",
+  "name": "line-chart",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/n3-charts/line-chart.git"
+  },
+  "version": "2.0.28"
 }

@@ -4,6 +4,20 @@
     "name": "UIkit Team",
     "url": "http://www.getuikit.com"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "js/**/*",
+          "css/**/*",
+          "fonts/**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "uikit"
+  },
   "description": "UIkit is a lightweight and modular front-end framework for developing fast and powerful web interfaces.",
   "filename": "js/uikit.min.js",
   "homepage": "http://www.getuikit.com",
@@ -19,19 +33,5 @@
     "url": "git://github.com/uikit/uikit"
   },
   "title": "UIkit",
-  "version": "3.5.4",
-  "autoupdate": {
-    "source": "npm",
-    "target": "uikit",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "js/**/*",
-          "css/**/*",
-          "fonts/**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.5.5"
 }
