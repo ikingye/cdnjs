@@ -1,5 +1,17 @@
 {
   "author": "pubkey",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "!(es|lib|typings){,**/*}"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "rxdb"
+  },
   "description": "A realtime Database for the Web",
   "filename": "rxdb.browserify.min.js",
   "homepage": "https://pubkey.github.io/rxdb/",
@@ -26,17 +38,5 @@
     "type": "git",
     "url": "https://github.com/pubkey/rxdb"
   },
-  "version": "9.3.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "rxdb",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "!(es|lib|typings){,**/*}"
-        ]
-      }
-    ]
-  }
+  "version": "9.4.0"
 }

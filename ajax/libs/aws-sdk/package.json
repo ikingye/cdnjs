@@ -61,5 +61,5 @@
     "type": "git",
     "url": "git://github.com/aws/aws-sdk-js.git"
   },
-  "version": "2.716.0"
+  "version": "2.720.0"
 }

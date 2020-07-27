@@ -25,5 +25,5 @@
     "type": "git",
     "url": "git+https://github.com/ipfs/js-ipfs.git"
   },
-  "version": "0.48.0"
+  "version": "0.48.1"
 }

@@ -1,25 +1,10 @@
 {
-  "name": "foundation-emails",
-  "filename": "foundation-emails.min.css",
-  "version": "2.2.1",
-  "description": "A framework for responsive emails made by ZURB",
-  "keywords": [
-    "responsive",
-    "emails"
-  ],
   "author": {
-    "name": "ZURB",
     "email": "foundation@zurb.com",
+    "name": "ZURB",
     "url": "http://foundation.zurb.com"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/zurb/foundation-emails.git"
-  },
-  "license": "MIT",
   "autoupdate": {
-    "source": "npm",
-    "target": "foundation-emails",
     "fileMap": [
       {
         "basePath": "dist",
@@ -27,6 +12,21 @@
           "**/*"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "foundation-emails"
+  },
+  "description": "A framework for responsive emails made by ZURB",
+  "filename": "foundation-emails.min.css",
+  "keywords": [
+    "responsive",
+    "emails"
+  ],
+  "license": "MIT",
+  "name": "foundation-emails",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zurb/foundation-emails.git"
+  },
+  "version": "2.3.1"
 }

@@ -1,5 +1,17 @@
 {
   "author": "Guy Bedford",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "systemjs"
+  },
   "description": "Universal dynamic module loader",
   "filename": "system.min.js",
   "keywords": [
@@ -11,17 +23,5 @@
     "type": "git",
     "url": "git://github.com/systemjs/systemjs"
   },
-  "version": "6.3.3",
-  "autoupdate": {
-    "source": "npm",
-    "target": "systemjs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "6.4.0"
 }

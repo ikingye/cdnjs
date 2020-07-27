@@ -1,22 +1,6 @@
 {
-  "name": "react-chartkick",
-  "description": "Create beautiful JavaScript charts with one line of React",
-  "filename": "react-chartkick.min.js",
-  "version": "0.4.0",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ankane/react-chartkick"
-  },
   "author": "Andrew Kane",
-  "keywords": [
-    "charts",
-    "graphs"
-  ],
-  "homepage": "https://www.chartkick.com/react",
   "autoupdate": {
-    "source": "npm",
-    "target": "react-chartkick",
     "fileMap": [
       {
         "basePath": "dist",
@@ -24,6 +8,22 @@
           "**/!(*.esm.js)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "react-chartkick"
+  },
+  "description": "Create beautiful JavaScript charts with one line of React",
+  "filename": "react-chartkick.min.js",
+  "homepage": "https://www.chartkick.com/react",
+  "keywords": [
+    "charts",
+    "graphs"
+  ],
+  "license": "MIT",
+  "name": "react-chartkick",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankane/react-chartkick"
+  },
+  "version": "0.4.1"
 }

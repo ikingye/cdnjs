@@ -1,5 +1,17 @@
 {
   "author": "Rik Schennink <rik@pqina.nl> (https://pqina.nl/)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "*.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "fitty"
+  },
   "description": "Snugly resizes text to fit its parent container",
   "filename": "fitty.min.js",
   "homepage": "https://github.com/rikschennink/fitty",
@@ -17,17 +29,5 @@
     "type": "git",
     "url": "git+https://github.com/rikschennink/fitty.git"
   },
-  "version": "2.3.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "fitty",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "*.js"
-        ]
-      }
-    ]
-  }
+  "version": "2.3.1"
 }

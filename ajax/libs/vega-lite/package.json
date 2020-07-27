@@ -1,21 +1,6 @@
 {
   "author": "Jeffrey Heer, Dominik Moritz, Kanit \"Ham\" Wongsuphasawat",
-  "description": "Vega-lite provides a higher-level grammar for visual analysis, comparable to ggplot or Tableau, that generates complete Vega specifications.",
-  "filename": "vega-lite.min.js",
-  "keywords": [
-    "visualization",
-    "grammar"
-  ],
-  "license": "BSD-3-Clause",
-  "name": "vega-lite",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/vega/vega-lite.git"
-  },
-  "version": "4.13.1",
   "autoupdate": {
-    "source": "npm",
-    "target": "vega-lite",
     "fileMap": [
       {
         "basePath": "",
@@ -29,6 +14,21 @@
           "**/vega-lite*.+(js|css|map)"
         ]
       }
-    ]
-  }
+    ],
+    "source": "npm",
+    "target": "vega-lite"
+  },
+  "description": "Vega-lite provides a higher-level grammar for visual analysis, comparable to ggplot or Tableau, that generates complete Vega specifications.",
+  "filename": "vega-lite.min.js",
+  "keywords": [
+    "visualization",
+    "grammar"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "vega-lite",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vega/vega-lite.git"
+  },
+  "version": "4.14.0"
 }

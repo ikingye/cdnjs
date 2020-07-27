@@ -1,8 +1,9 @@
 {
-  "name": "dna.js",
+  "author": {
+    "name": "Center Key",
+    "url": "http://centerkey.com"
+  },
   "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/dnajs/dna.js.git",
     "fileMap": [
       {
         "basePath": "",
@@ -10,11 +11,12 @@
           "dna*"
         ]
       }
-    ]
+    ],
+    "source": "git",
+    "target": "git://github.com/dnajs/dna.js.git"
   },
-  "filename": "dna.min.js",
-  "version": "1.6.1",
   "description": "An uncomplicated user interface library",
+  "filename": "dna.min.js",
   "homepage": "http://dnajs.org",
   "keywords": [
     "clone",
@@ -27,13 +29,11 @@
     "templating",
     "ui"
   ],
+  "license": "MIT",
+  "name": "dna.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dnajs/dna.js.git"
   },
-  "license": "MIT",
-  "author": {
-    "name": "Center Key",
-    "url": "http://centerkey.com"
-  }
+  "version": "1.6.2"
 }

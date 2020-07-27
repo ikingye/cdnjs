@@ -3,6 +3,19 @@
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "js/md5.js",
+          "js/md5.min.js"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "blueimp-md5"
+  },
   "description": "JavaScript MD5 implementation.",
   "filename": "js/md5.min.js",
   "keywords": [
@@ -16,18 +29,5 @@
     "url": "git://github.com/blueimp/JavaScript-MD5.git"
   },
   "title": "JavaScript MD5",
-  "version": "2.16.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "blueimp-md5",
-    "fileMap": [
-      {
-        "basePath": "",
-        "files": [
-          "js/md5.js",
-          "js/md5.min.js"
-        ]
-      }
-    ]
-  }
+  "version": "2.17.0"
 }

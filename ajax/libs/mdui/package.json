@@ -1,8 +1,23 @@
 {
-  "name": "mdui",
-  "filename": "js/mdui.min.js",
-  "version": "0.4.3",
+  "author": {
+    "email": "zdhxiong@gmail.com",
+    "name": "zdhxiong"
+  },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.!(txt|ijmap)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "mdui"
+  },
   "description": "a CSS Framework based on material design",
+  "filename": "js/mdui.min.js",
+  "homepage": "http://mdui.org",
   "keywords": [
     "material design",
     "responsive",
@@ -11,26 +26,11 @@
     "mobile-first",
     "web"
   ],
-  "author": {
-    "name": "zdhxiong",
-    "email": "zdhxiong@gmail.com"
-  },
   "license": "MIT",
+  "name": "mdui",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zdhxiong/mdui.git"
   },
-  "homepage": "http://mdui.org",
-  "autoupdate": {
-    "source": "npm",
-    "target": "mdui",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.!(txt|ijmap)"
-        ]
-      }
-    ]
-  }
+  "version": "1.0.0"
 }

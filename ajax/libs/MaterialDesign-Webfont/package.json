@@ -24,14 +24,11 @@
     "icons",
     "webfont"
   ],
-  "licenses": [
-    "OFL-1.1",
-    "MIT"
-  ],
+  "license": "(OFL-1.1 OR MIT)",
   "name": "MaterialDesign-Webfont",
   "repository": {
     "type": "git",
     "url": "https://github.com/Templarian/MaterialDesign-Webfont.git"
   },
-  "version": "5.3.45"
+  "version": "5.4.55"
 }

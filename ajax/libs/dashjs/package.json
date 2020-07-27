@@ -1,5 +1,17 @@
 {
   "author": "Dash Industry Forum",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "dashjs"
+  },
   "description": "A reference client implementation for the playback of MPEG DASH via Javascript and compliant browsers.",
   "filename": "dash.all.min.js",
   "keywords": [
@@ -13,17 +25,5 @@
     "type": "git",
     "url": "https://github.com/Dash-Industry-Forum/dash.js.git"
   },
-  "version": "3.1.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "dashjs",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "3.1.2"
 }

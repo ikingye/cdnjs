@@ -1,9 +1,20 @@
 {
-  "name": "jquery.smartmenus",
-  "filename": "jquery.smartmenus.min.js",
-  "version": "1.1.0",
-  "homepage": "http://www.smartmenus.org/",
+  "author": "Vasil Dinkov <vasko.dinkov@gmail.com>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.+(css|js)"
+        ]
+      }
+    ],
+    "source": "git",
+    "target": "git://github.com/vadikom/smartmenus.git"
+  },
   "description": "Advanced jQuery website menu plugin. Mobile first, responsive and accessible list-based website menus that work on all devices.",
+  "filename": "jquery.smartmenus.min.js",
+  "homepage": "http://www.smartmenus.org/",
   "keywords": [
     "menu",
     "navigation",
@@ -13,21 +24,10 @@
     "ui"
   ],
   "license": "MIT",
-  "autoupdate": {
-    "source": "git",
-    "target": "git://github.com/vadikom/smartmenus.git",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.+(css|js)"
-        ]
-      }
-    ]
-  },
+  "name": "jquery.smartmenus",
   "repository": {
     "type": "git",
     "url": "https://github.com/vadikom/smartmenus"
   },
-  "author": "Vasil Dinkov <vasko.dinkov@gmail.com>"
+  "version": "1.0.2"
 }

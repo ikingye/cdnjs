@@ -2,6 +2,18 @@
   "author": {
     "name": "Michel Weststrate"
   },
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.@(js|ts|map)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "immer"
+  },
   "description": "Create your next immutable state by mutating the current one",
   "filename": "immer.umd.production.min.js",
   "homepage": "https://github.com/immerjs/immer#readme",
@@ -16,17 +28,5 @@
     "type": "git",
     "url": "git+https://github.com/immerjs/immer.git"
   },
-  "version": "7.0.5",
-  "autoupdate": {
-    "source": "npm",
-    "target": "immer",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.@(js|ts|map)"
-        ]
-      }
-    ]
-  }
+  "version": "7.0.7"
 }

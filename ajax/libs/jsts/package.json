@@ -1,5 +1,17 @@
 {
   "author": "Björn Harrtell <bjorn@wololo.org>",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "jsts"
+  },
   "description": "A JavaScript library of spatial predicates and functions for processing geometry",
   "filename": "jsts.min.js",
   "homepage": "https://bjornharrtell.github.io/jsts/",
@@ -20,17 +32,5 @@
     "type": "git",
     "url": "git://github.com/bjornharrtell/jsts.git"
   },
-  "version": "2.3.0",
-  "autoupdate": {
-    "source": "npm",
-    "target": "jsts",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*"
-        ]
-      }
-    ]
-  }
+  "version": "2.5.0"
 }

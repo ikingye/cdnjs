@@ -1,5 +1,17 @@
 {
   "author": "Christophe Brisbois <chr@brisbois.fr> (https://brisbois.fr)",
+  "autoupdate": {
+    "fileMap": [
+      {
+        "basePath": "dist",
+        "files": [
+          "**/*.@(js|css|woff|woff2|png)"
+        ]
+      }
+    ],
+    "source": "npm",
+    "target": "nanogallery2"
+  },
   "description": "a modern photo / video gallery and lightbox",
   "filename": "jquery.nanogallery2.min.js",
   "homepage": "https://nanogallery2.nanostudio.org",
@@ -12,17 +24,5 @@
     "type": "git",
     "url": "git://github.com/nanostudio-org/nanogallery2.git"
   },
-  "version": "3.0.1",
-  "autoupdate": {
-    "source": "npm",
-    "target": "nanogallery2",
-    "fileMap": [
-      {
-        "basePath": "dist",
-        "files": [
-          "**/*.@(js|css|woff|woff2|png)"
-        ]
-      }
-    ]
-  }
+  "version": "3.0.2"
 }
