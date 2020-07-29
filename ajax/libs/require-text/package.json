@@ -1,18 +1,1 @@
-{
-  "filename": "text.min.js",
-  "name": "require-text",
-  "version": "2.0.12",
-  "description": "An AMD loader plugin for loading text resources.",
-  "keywords": [
-    "requirejs",
-    "text"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/requirejs/text"
-  },
-  "licenses": [
-    "MIT",
-    "BSD-3-Clause"
-  ]
-}
+{"description":"An AMD loader plugin for loading text resources.","filename":"text.min.js","keywords":["requirejs","text"],"license":"(MIT OR BSD-3-Clause)","name":"require-text","repository":{"type":"git","url":"https://github.com/requirejs/text"},"version":"2.0.12"}

@@ -1,17 +1,1 @@
-{
-  "name": "jquery-treegrid",
-  "filename": "js/jquery.treegrid.min.js",
-  "version": "0.2.0",
-  "description": "jQuery TreeGrid plugin",
-  "homepage": "http://maxazan.github.io/jquery-treegrid/",
-  "keywords": [
-    "jquery-treegrid",
-    "file download"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/maxazan/jquery-treegrid"
-  },
-  "license": "MIT",
-  "author": "Maksym Pomazan"
-}
+{"authors":[{"name":"Maksym Pomazan"}],"description":"jQuery TreeGrid plugin","filename":"js/jquery.treegrid.min.js","homepage":"http://maxazan.github.io/jquery-treegrid/","keywords":["jquery-treegrid","file download"],"license":"MIT","name":"jquery-treegrid","repository":{"type":"git","url":"https://github.com/maxazan/jquery-treegrid"},"version":"0.2.0","author":"Maksym Pomazan"}

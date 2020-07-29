@@ -1,18 +1,1 @@
-{
-  "name": "pegjs",
-  "filename": "peg.min.js",
-  "version": "0.9.0",
-  "description": "Parser generator for JavaScript",
-  "homepage": "http://pegjs.majda.cz/",
-  "keywords": [
-    "parser",
-    "generator",
-    "peg"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/pegjs/pegjs"
-  },
-  "license": "MIT",
-  "author": "David Majda <david@majda.cz> (http://majda.cz/)"
-}
+{"authors":[{"name":"David Majda","email":"david@majda.cz","url":"http://majda.cz/"}],"description":"Parser generator for JavaScript","filename":"peg.min.js","homepage":"http://pegjs.majda.cz/","keywords":["parser","generator","peg"],"license":"MIT","name":"pegjs","repository":{"type":"git","url":"https://github.com/pegjs/pegjs"},"version":"0.9.0","author":"David Majda <david@majda.cz> (http://majda.cz/)"}

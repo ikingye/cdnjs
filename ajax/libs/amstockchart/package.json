@@ -1,14 +1,1 @@
-{
-  "name": "amstockchart",
-  "filename": "amstock.js",
-  "version": "3.13.0",
-  "description": "amCharts is a robust charting tool that will suit any dataviz need.",
-  "keywords": [
-    "chart"
-  ],
-  "homepage": "http://www.amcharts.com/",
-  "license": {
-    "name": "Free and commercial",
-    "url": "http://www.amcharts.com/download/"
-  }
-}
+{"description":"amCharts is a robust charting tool that will suit any dataviz need.","filename":"amstock.js","homepage":"http://www.amcharts.com/","keywords":["chart"],"license":"Free and commercial","name":"amstockchart","version":"3.13.0"}

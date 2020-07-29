@@ -1,17 +1,1 @@
-{
-  "name": "simplestatemanager",
-  "filename": "ssm.min.js",
-  "version": "2.2.5",
-  "description": "SimpleStateManager ==================",
-  "keywords": [
-    "responsive",
-    "states",
-    "state"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/SimpleStateManager/SimpleStateManager"
-  },
-  "license": "MIT",
-  "author": "Jonathan Fielding"
-}
+{"authors":[{"name":"Jonathan Fielding"}],"description":"SimpleStateManager ==================","filename":"ssm.min.js","keywords":["responsive","states","state"],"license":"MIT","name":"simplestatemanager","repository":{"type":"git","url":"https://github.com/SimpleStateManager/SimpleStateManager"},"version":"2.2.5","author":"Jonathan Fielding"}

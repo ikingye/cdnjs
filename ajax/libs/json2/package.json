@@ -1,15 +1,1 @@
-{
-  "name": "json2",
-  "filename": "json2.min.js",
-  "version": "20160511",
-  "description": "This file creates a global JSON object containing two methods: stringify and parse.",
-  "keywords": [
-    "json",
-    "popular"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/douglascrockford/JSON-js"
-  },
-  "license": "Unlicense"
-}
+{"description":"This file creates a global JSON object containing two methods: stringify and parse.","filename":"json2.min.js","keywords":["json","popular"],"license":"Unlicense","name":"json2","repository":{"type":"git","url":"https://github.com/douglascrockford/JSON-js"},"version":"20160511"}

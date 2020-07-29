@@ -1,17 +1,1 @@
-{
-  "name": "quicksound.js",
-  "filename": "quicksound.min.js",
-  "version": "0.5.2",
-  "description": "A very simple JavaScript sound library using WebAudio and a fallback to Flash.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/void6/quicksound.js"
-  },
-  "keywords": [
-    "audio",
-    "WebAudio"
-  ],
-  "author": "tfriedel6",
-  "homepage": "https://github.com/tfriedel6",
-  "license": "MIT"
-}
+{"authors":[{"name":"tfriedel6"}],"description":"A very simple JavaScript sound library using WebAudio and a fallback to Flash.","filename":"quicksound.min.js","homepage":"https://github.com/tfriedel6","keywords":["audio","WebAudio"],"license":"MIT","name":"quicksound.js","repository":{"type":"git","url":"https://github.com/void6/quicksound.js"},"version":"0.5.2","author":"tfriedel6"}

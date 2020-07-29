@@ -1,0 +1,1 @@
+module.exports={tag:function(t){return function(n){window.Slim.tag(t,n)}},template:function(t){return function(n){n.prototype.__defineGetter__("template",function(){return t})}},useShadow:function(t){return function(n){n.prototype.__defineGetter__("useShadow",function(){return t})}}};

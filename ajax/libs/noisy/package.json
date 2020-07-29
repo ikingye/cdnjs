@@ -1,17 +1,1 @@
-{
-  "name": "noisy",
-  "filename": "jquery.noisy.min.js",
-  "version": "1.2",
-  "description": "Adds random noise to the background of a given element.",
-  "homepage": "http://rappdaniel.com/noisy/",
-  "keywords": [
-    "noisy",
-    "noise generator",
-    "canvas"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DanielRapp/Noisy"
-  },
-  "license": "MIT"
-}
+{"description":"Adds random noise to the background of a given element.","filename":"jquery.noisy.min.js","homepage":"http://rappdaniel.com/noisy/","keywords":["noisy","noise generator","canvas"],"license":"MIT","name":"noisy","repository":{"type":"git","url":"https://github.com/DanielRapp/Noisy"},"version":"1.2"}

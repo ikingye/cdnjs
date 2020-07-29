@@ -1,16 +1,1 @@
-{
-  "name": "web-starter-kit",
-  "filename": "styles/main.min.css",
-  "version": "0.2.0-beta",
-  "description": "Google Web Starter Kit: Boilerplate & Tooling for Multi-Device Development",
-  "homepage": "https://developers.google.com/web/starter-kit/",
-  "keywords": [
-    "google",
-    "boilerplate"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/google/web-starter-kit.git"
-  },
-  "license": "Apache-2.0"
-}
+{"description":"Google Web Starter Kit: Boilerplate & Tooling for Multi-Device Development","filename":"styles/main.min.css","homepage":"https://developers.google.com/web/starter-kit/","keywords":["google","boilerplate"],"license":"Apache-2.0","name":"web-starter-kit","repository":{"type":"git","url":"https://github.com/google/web-starter-kit.git"},"version":"0.2.0-beta"}

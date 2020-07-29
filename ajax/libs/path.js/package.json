@@ -1,18 +1,1 @@
-{
-  "name": "path.js",
-  "filename": "path.min.js",
-  "version": "0.8.4",
-  "description": "PathJS is a lightweight, client-side routing library that allows you to create 'single page' applications using Hashbangs and/or HTML5 pushState.",
-  "keywords": [
-    "path",
-    "routing",
-    "fragment",
-    "hash",
-    "push-state"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mtrpcic/pathjs"
-  },
-  "license": "MIT"
-}
+{"description":"PathJS is a lightweight, client-side routing library that allows you to create 'single page' applications using Hashbangs and/or HTML5 pushState.","filename":"path.min.js","keywords":["path","routing","fragment","hash","push-state"],"license":"MIT","name":"path.js","repository":{"type":"git","url":"https://github.com/mtrpcic/pathjs"},"version":"0.8.4"}

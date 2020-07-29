@@ -1,18 +1,1 @@
-{
-  "name": "salesforce-canvas",
-  "filename": "canvas-all.min.js",
-  "version": "27.0",
-  "description": "An open source javascript sdk to build a seamless end-user experience inside of salesforce.com.",
-  "homepage": "http://wiki.developerforce.com/page/Force.com_Canvas",
-  "keywords": [
-    "salesforce",
-    "canvas",
-    "intigration"
-  ],
-  "author": "Salesforce.com, Inc.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/forcedotcom/SalesforceCanvasFrameworkSDK.git"
-  },
-  "license": "BSD-3-Clause"
-}
+{"authors":[{"name":"Salesforce.com, Inc."}],"description":"An open source javascript sdk to build a seamless end-user experience inside of salesforce.com.","filename":"canvas-all.min.js","homepage":"http://wiki.developerforce.com/page/Force.com_Canvas","keywords":["salesforce","canvas","intigration"],"license":"BSD-3-Clause","name":"salesforce-canvas","repository":{"type":"git","url":"https://github.com/forcedotcom/SalesforceCanvasFrameworkSDK.git"},"version":"27.0","author":"Salesforce.com, Inc."}

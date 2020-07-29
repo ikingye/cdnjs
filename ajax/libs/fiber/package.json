@@ -1,16 +1,1 @@
-{
-  "name": "fiber",
-  "filename": "fiber.min.js",
-  "version": "1.0.5",
-  "description": "Lightweight JavaScript inheritance library",
-  "keywords": [
-    "inheritance",
-    "linkedin"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/linkedin/Fiber.git"
-  },
-  "license": "Apache-2.0",
-  "author": "Kirollos Risk <kirollos@gmail.com>"
-}
+{"authors":[{"name":"Kirollos Risk","email":"kirollos@gmail.com"}],"description":"Lightweight JavaScript inheritance library","filename":"fiber.min.js","keywords":["inheritance","linkedin"],"license":"Apache-2.0","name":"fiber","repository":{"type":"git","url":"https://github.com/linkedin/Fiber.git"},"version":"1.0.5","author":"Kirollos Risk <kirollos@gmail.com>"}

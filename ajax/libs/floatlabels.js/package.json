@@ -1,17 +1,1 @@
-{
-  "name": "floatlabels.js",
-  "filename": "floatlabels.min.js",
-  "description": "floatlabels.js follows the famous Float Label Pattern. Built on jQuery.",
-  "version": "1.0.0",
-  "keywords": [
-    "floatlabels",
-    "label"
-  ],
-  "homepage": "http://clubdesign.github.io/floatlabels.js",
-  "author": "Marcus Pohorely http://www.clubdesign.at",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/clubdesign/floatlabels.js.git"
-  },
-  "license": "MIT"
-}
+{"authors":[{"name":"Marcus Pohorely http://www.clubdesign.at"}],"description":"floatlabels.js follows the famous Float Label Pattern. Built on jQuery.","filename":"floatlabels.min.js","homepage":"http://clubdesign.github.io/floatlabels.js","keywords":["floatlabels","label"],"license":"MIT","name":"floatlabels.js","repository":{"type":"git","url":"https://github.com/clubdesign/floatlabels.js.git"},"version":"1.0.0","author":"Marcus Pohorely http://www.clubdesign.at"}

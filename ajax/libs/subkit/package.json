@@ -1,18 +1,1 @@
-{
-  "name": "subkit",
-  "filename": "subkit.min.js",
-  "description": "Subkit library for the browser.",
-  "version": "1.1.24",
-  "keywords": [
-    "subkit",
-    "microservice",
-    "backend",
-    "angular",
-    "angularjs"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/subkit/subkit.js"
-  }
-}
+{"description":"Subkit library for the browser.","filename":"subkit.min.js","keywords":["subkit","microservice","backend","angular","angularjs"],"license":"MIT","name":"subkit","repository":{"type":"git","url":"https://github.com/subkit/subkit.js"},"version":"1.1.24"}
