@@ -1,16 +1,1 @@
-{
-  "name": "webicons",
-  "filename": "webicons.min.css",
-  "version": "2.0.0",
-  "description": "Webicons is a set of resolution-independent social icons for use on your website.",
-  "homepage": "http://www.usewebicons.com/",
-  "keywords": [
-    "icons",
-    "svg"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/adamfairhead/webicons.git"
-  },
-  "license": "CC-BY-3.0-US"
-}
+{"description":"Webicons is a set of resolution-independent social icons for use on your website.","filename":"webicons.min.css","homepage":"http://www.usewebicons.com/","keywords":["icons","svg"],"license":"CC-BY-3.0-US","name":"webicons","repository":{"type":"git","url":"https://github.com/adamfairhead/webicons.git"},"version":"2.0.0"}

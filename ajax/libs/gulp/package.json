@@ -1,16 +1,1 @@
-{
-  "name": "gulp",
-  "filename": "gulp.min.js",
-  "description": "The streaming build system",
-  "version": "3.8.5",
-  "homepage": "http://gulpjs.com",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gulpjs/gulp.git"
-  },
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-  "license": "MIT",
-  "keywords": [
-    "gulp"
-  ]
-}
+{"authors":[{"name":"Fractal","email":"contact@wearefractal.com","url":"http://wearefractal.com/"}],"description":"The streaming build system","filename":"gulp.min.js","homepage":"http://gulpjs.com","keywords":["gulp"],"license":"MIT","name":"gulp","repository":{"type":"git","url":"https://github.com/gulpjs/gulp.git"},"version":"3.8.5","author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)"}

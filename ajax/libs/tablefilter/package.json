@@ -1,12 +1,1 @@
-{
-  "name": "tablefilter",
-  "filename": "tablefilter_min.js",
-  "version": "2.5.0",
-  "description": "HTML Table Filter Script",
-  "homepage": "http://tablefilter.free.fr",
-  "keywords": [
-    "table",
-    "filter"
-  ],
-  "license": "MIT"
-}
+{"description":"HTML Table Filter Script","filename":"tablefilter_min.js","homepage":"http://tablefilter.free.fr","keywords":["table","filter"],"license":"MIT","name":"tablefilter","version":"2.5.0"}

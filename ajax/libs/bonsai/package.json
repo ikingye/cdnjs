@@ -1,18 +1,1 @@
-{
-  "name": "bonsai",
-  "filename": "bonsai.min.js",
-  "version": "0.4.5",
-  "description": "Bonsai runtime and node server",
-  "homepage": "http://bonsaijs.org",
-  "keywords": [
-    "graphics",
-    "svg",
-    "vector"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uxebu/bonsai/"
-  },
-  "author": "uxebu Inc. (http://uxebu.com/)",
-  "license": "MIT"
-}
+{"authors":[{"name":"uxebu Inc.","url":"http://uxebu.com/"}],"description":"Bonsai runtime and node server","filename":"bonsai.min.js","homepage":"http://bonsaijs.org","keywords":["graphics","svg","vector"],"license":"MIT","name":"bonsai","repository":{"type":"git","url":"https://github.com/uxebu/bonsai/"},"version":"0.4.5","author":"uxebu Inc. (http://uxebu.com/)"}

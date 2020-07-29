@@ -1,18 +1,1 @@
-{
-  "name": "zclip",
-  "filename": "jquery.zclip.min.js",
-  "version": "1.1.2",
-  "license": "MIT",
-  "description": "A lightweight jQuery \"copy to clipboard\" plugin",
-  "keywords": [
-    "jquery",
-    "flash",
-    "clipboard",
-    "copy",
-    "paste"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/terinjokes/zClip"
-  }
-}
+{"description":"A lightweight jQuery \"copy to clipboard\" plugin","filename":"jquery.zclip.min.js","keywords":["jquery","flash","clipboard","copy","paste"],"license":"MIT","name":"zclip","repository":{"type":"git","url":"https://github.com/terinjokes/zClip"},"version":"1.1.2"}

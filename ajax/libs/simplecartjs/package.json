@@ -1,18 +1,1 @@
-{
-  "name": "simplecartjs",
-  "filename": "simplecart.min.js",
-  "version": "3.0.5",
-  "description": "A simple javascript shopping cart that easily integrates with your current website.",
-  "homepage": "http://simplecartjs.org",
-  "keywords": [
-    "cart",
-    "shopping",
-    "simple",
-    "paypal"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/wojodesign/simplecart-js"
-  },
-  "license": "MIT"
-}
+{"description":"A simple javascript shopping cart that easily integrates with your current website.","filename":"simplecart.min.js","homepage":"http://simplecartjs.org","keywords":["cart","shopping","simple","paypal"],"license":"MIT","name":"simplecartjs","repository":{"type":"git","url":"https://github.com/wojodesign/simplecart-js"},"version":"3.0.5"}

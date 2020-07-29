@@ -1,15 +1,1 @@
-{
-  "name": "clientside-haml-js",
-  "filename": "haml.min.js",
-  "version": "5.4",
-  "description": "Haml compiler for client side javascript and coffeescript view templates",
-  "keywords": [
-    "template",
-    "haml"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uglyog/clientside-haml-js.git"
-  },
-  "license": "MIT"
-}
+{"description":"Haml compiler for client side javascript and coffeescript view templates","filename":"haml.min.js","keywords":["template","haml"],"license":"MIT","name":"clientside-haml-js","repository":{"type":"git","url":"https://github.com/uglyog/clientside-haml-js.git"},"version":"5.4"}

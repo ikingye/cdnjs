@@ -1,17 +1,1 @@
-{
-  "name": "galleriffic",
-  "filename": "jquery.galleriffic.min.js",
-  "version": "2.0.1",
-  "description": "A jQuery plugin for rendering rich, fast-performing photo galleries.",
-  "homepage": "http://www.twospy.com/galleriffic/",
-  "keywords": [
-    "jquery",
-    "gallery",
-    "images"
-  ],
-  "repository": {
-    "type": "svn",
-    "url": "http://code.google.com/p/galleriffic/source/browse/#svn/trunk/example"
-  },
-  "license": "MIT"
-}
+{"description":"A jQuery plugin for rendering rich, fast-performing photo galleries.","filename":"jquery.galleriffic.min.js","homepage":"http://www.twospy.com/galleriffic/","keywords":["jquery","gallery","images"],"license":"MIT","name":"galleriffic","repository":{"type":"svn","url":"http://code.google.com/p/galleriffic/source/browse/#svn/trunk/example"},"version":"2.0.1"}

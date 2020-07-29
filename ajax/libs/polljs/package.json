@@ -1,17 +1,1 @@
-{
-  "name": "polljs",
-  "filename": "poll.min.js",
-  "version": "0.3.0",
-  "description": "PollJS is a lightweight wrapper for the JavaScript Interval and Timer methods.",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mtrpcic/polljs.git"
-  },
-  "license": "MIT",
-  "author": "mtrpcic",
-  "keywords": [
-    "timer",
-    "lightweight",
-    "JavaScript"
-  ]
-}
+{"authors":[{"name":"mtrpcic"}],"description":"PollJS is a lightweight wrapper for the JavaScript Interval and Timer methods.","filename":"poll.min.js","keywords":["timer","lightweight","JavaScript"],"license":"MIT","name":"polljs","repository":{"type":"git","url":"https://github.com/mtrpcic/polljs.git"},"version":"0.3.0","author":"mtrpcic"}

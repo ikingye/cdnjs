@@ -1,17 +1,1 @@
-{
-  "name": "jquery-idletimer",
-  "title": "Idle Timer",
-  "description": "provides you a way to monitor user activity with a page.",
-  "version": "1.0.0",
-  "filename": "idle-timer.min.js",
-  "author": {
-    "name": "Paul Irish",
-    "email": "paul.irish@gmail.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/thorst/jquery-idletimer.git"
-  },
-  "keywords": [],
-  "license": "MIT"
-}
+{"authors":[{"name":"Paul Irish","email":"paul.irish@gmail.com"}],"description":"provides you a way to monitor user activity with a page.","filename":"idle-timer.min.js","keywords":["idle","timer","inactive"],"license":"MIT","name":"jquery-idletimer","repository":{"type":"git","url":"git://github.com/thorst/jquery-idletimer.git"},"version":"1.0.0","author":"Paul Irish <paul.irish@gmail.com>"}

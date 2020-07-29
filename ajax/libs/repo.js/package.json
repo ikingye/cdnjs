@@ -1,18 +1,1 @@
-{
-  "name": "repo.js",
-  "filename": "repo.min.js",
-  "version": "5c0eae0f1b",
-  "description": "Repo.js is a jQuery plugin that lets you easily embed a Github repo onto your site.",
-  "homepage": "http://darcyclarke.me/dev/repojs/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/darcyclarke/Repo.js.git"
-  },
-  "keywords": [
-    "repo.js"
-  ],
-  "licenses": [
-    "MIT",
-    "GPL-2.0"
-  ]
-}
+{"description":"Repo.js is a jQuery plugin that lets you easily embed a Github repo onto your site.","filename":"repo.min.js","homepage":"http://darcyclarke.me/dev/repojs/","keywords":["repo.js"],"license":"(MIT OR GPL-2.0)","name":"repo.js","repository":{"type":"git","url":"https://github.com/darcyclarke/Repo.js.git"},"version":"5c0eae0f1b"}

@@ -1,16 +1,1 @@
-{
-  "name": "hinclude",
-  "filename": "hinclude.min.js",
-  "version": "0.9.5",
-  "description": "Declarative client-side inclusion for the Web",
-  "homepage": "http://mnot.github.com/hinclude/",
-  "keywords": [
-    "include"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mnot/hinclude"
-  },
-  "author": "Mark Nottingham <mnot@mnot.com>",
-  "license": "MIT"
-}
+{"authors":[{"name":"Mark Nottingham","email":"mnot@mnot.com"}],"description":"Declarative client-side inclusion for the Web","filename":"hinclude.min.js","homepage":"http://mnot.github.com/hinclude/","keywords":["include"],"license":"MIT","name":"hinclude","repository":{"type":"git","url":"https://github.com/mnot/hinclude"},"version":"0.9.5","author":"Mark Nottingham <mnot@mnot.com>"}

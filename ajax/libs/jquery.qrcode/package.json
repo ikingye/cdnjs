@@ -1,18 +1,1 @@
-{
-  "name": "jquery.qrcode",
-  "filename": "jquery.qrcode.min.js",
-  "version": "1.0",
-  "description": "A jquery plugin for a pure browser qrcode generation.",
-  "homepage": "http://jeromeetienne.github.com/jquery-qrcode/",
-  "keywords": [
-    "jquery",
-    "qrcode",
-    "qr"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jeromeetienne/jquery-qrcode"
-  },
-  "license": "MIT",
-  "author": "jeromeetienne"
-}
+{"authors":[{"name":"jeromeetienne"}],"description":"A jquery plugin for a pure browser qrcode generation.","filename":"jquery.qrcode.min.js","homepage":"http://jeromeetienne.github.com/jquery-qrcode/","keywords":["jquery","qrcode","qr"],"license":"MIT","name":"jquery.qrcode","repository":{"type":"git","url":"https://github.com/jeromeetienne/jquery-qrcode"},"version":"1.0","author":"jeromeetienne"}

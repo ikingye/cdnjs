@@ -1,18 +1,1 @@
-{
-  "name": "angularSubkit",
-  "filename": "angularsubkit.min.js",
-  "description": "AngularSubkit is a set of browser Subkit bindings for AngularJS.",
-  "version": "1.0.3",
-  "keywords": [
-    "subkit",
-    "microservice",
-    "backend",
-    "angular",
-    "angularjs"
-  ],
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/subkit/angularsubkit.js"
-  }
-}
+{"description":"AngularSubkit is a set of browser Subkit bindings for AngularJS.","filename":"angularsubkit.min.js","keywords":["subkit","microservice","backend","angular","angularjs"],"license":"MIT","name":"angularSubkit","repository":{"type":"git","url":"https://github.com/subkit/angularsubkit.js"},"version":"1.0.3"}

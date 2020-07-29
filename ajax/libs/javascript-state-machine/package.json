@@ -1,16 +1,1 @@
-{
-  "name": "javascript-state-machine",
-  "filename": "state-machine.min.js",
-  "version": "2.0.0",
-  "description": "A simple finite state machine library",
-  "keywords": [
-    "state-machine",
-    "fsm"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jakesgordon/javascript-state-machine.git"
-  },
-  "license": "MIT",
-  "author": "Jake Gordon <jake@codeincomplete.com>"
-}
+{"authors":[{"name":"Jake Gordon","email":"jake@codeincomplete.com"}],"description":"A simple finite state machine library","filename":"state-machine.min.js","keywords":["state-machine","fsm"],"license":"MIT","name":"javascript-state-machine","repository":{"type":"git","url":"https://github.com/jakesgordon/javascript-state-machine.git"},"version":"2.0.0","author":"Jake Gordon <jake@codeincomplete.com>"}

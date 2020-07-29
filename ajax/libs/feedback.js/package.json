@@ -1,18 +1,1 @@
-{
-  "name": "feedback.js",
-  "filename": "feedback.min.js",
-  "version": "2012.10.17",
-  "description": "Feedback form with screenshot",
-  "homepage": "http://experiments.hertzen.com/jsfeedback/",
-  "keywords": [
-    "canvas",
-    "screenshot",
-    "html5",
-    "feedback"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/niklasvh/feedback.js"
-  },
-  "license": "MIT"
-}
+{"description":"Feedback form with screenshot","filename":"feedback.min.js","homepage":"http://experiments.hertzen.com/jsfeedback/","keywords":["canvas","screenshot","html5","feedback"],"license":"MIT","name":"feedback.js","repository":{"type":"git","url":"https://github.com/niklasvh/feedback.js"},"version":"2012.10.17"}

@@ -1,17 +1,1 @@
-{
-  "name": "lazyload",
-  "filename": "lazyload-min.js",
-  "version": "2.0.3",
-  "description": "Tiny, dependency-free async JavaScript and CSS loader.lo",
-  "homepage": "https://github.com/rgrove/lazyload/",
-  "keywords": [
-    "loader",
-    "modules",
-    "asynchronous"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/rgrove/lazyload/"
-  },
-  "license": "MIT"
-}
+{"description":"Tiny, dependency-free async JavaScript and CSS loader.lo","filename":"lazyload-min.js","homepage":"https://github.com/rgrove/lazyload/","keywords":["loader","modules","asynchronous"],"license":"MIT","name":"lazyload","repository":{"type":"git","url":"https://github.com/rgrove/lazyload/"},"version":"2.0.3"}

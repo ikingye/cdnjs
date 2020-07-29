@@ -1,18 +1,1 @@
-{
-  "name": "knockout-bootstrap",
-  "filename": "knockout-bootstrap.min.js",
-  "version": "0.2.1",
-  "description": "Knockout Bindings for Bootstrap Widgets",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/billpull/knockout-bootstrap.git"
-  },
-  "keywords": [
-    "knockout",
-    "bootstrap",
-    "knockout-bootstrap",
-    "bindings"
-  ],
-  "author": "Bill Pullen",
-  "license": "MIT"
-}
+{"authors":[{"name":"Bill Pullen"}],"description":"Knockout Bindings for Bootstrap Widgets","filename":"knockout-bootstrap.min.js","keywords":["knockout","bootstrap","knockout-bootstrap","bindings"],"license":"MIT","name":"knockout-bootstrap","repository":{"type":"git","url":"https://github.com/billpull/knockout-bootstrap.git"},"version":"0.2.1","author":"Bill Pullen"}

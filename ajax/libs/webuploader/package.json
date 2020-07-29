@@ -1,18 +1,1 @@
-{
-  "name": "webuploader",
-  "filename": "webuploader.min.js",
-  "version": "0.1.1",
-  "description": "It's a new file uploader solution, with two runtimes(html5 & flash).",
-  "homepage": "http://gmuteam.github.io/webuploader",
-  "keywords": [
-    "uploader",
-    "html5",
-    "flash",
-    "chunk"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gmuteam/webuploader.git"
-  },
-  "license": "BSD-3-Clause"
-}
+{"description":"It's a new file uploader solution, with two runtimes(html5 & flash).","filename":"webuploader.min.js","homepage":"http://gmuteam.github.io/webuploader","keywords":["uploader","html5","flash","chunk"],"license":"BSD-3-Clause","name":"webuploader","repository":{"type":"git","url":"https://github.com/gmuteam/webuploader.git"},"version":"0.1.1"}

@@ -1,17 +1,1 @@
-{
-  "name": "protovis",
-  "filename": "protovis.min.js",
-  "version": "3.3.1",
-  "description": "A visualization toolkit for JavaScript using SVG.",
-  "homepage": "http://mbostock.github.com/protovis/",
-  "keywords": [
-    "visualization",
-    "svg",
-    "animation"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mbostock/protovis"
-  },
-  "license": "BSD-2-Clause"
-}
+{"description":"A visualization toolkit for JavaScript using SVG.","filename":"protovis.min.js","homepage":"http://mbostock.github.com/protovis/","keywords":["visualization","svg","animation"],"license":"BSD-2-Clause","name":"protovis","repository":{"type":"git","url":"https://github.com/mbostock/protovis"},"version":"3.3.1"}

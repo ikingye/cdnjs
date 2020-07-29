@@ -1,18 +1,1 @@
-{
-  "name": "cufon",
-  "filename": "cufon-yui.min.js",
-  "version": "1.09i",
-  "description": "Fast text replacement with canvas and VML - no Flash or images required.",
-  "homepage": "http://cufon.shoqolate.com/",
-  "keywords": [
-    "font",
-    "canvas",
-    "vml",
-    "popular"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/sorccu/cufon/"
-  },
-  "license": "MIT"
-}
+{"description":"Fast text replacement with canvas and VML - no Flash or images required.","filename":"cufon-yui.min.js","homepage":"http://cufon.shoqolate.com/","keywords":["font","canvas","vml","popular"],"license":"MIT","name":"cufon","repository":{"type":"git","url":"https://github.com/sorccu/cufon/"},"version":"1.09i"}

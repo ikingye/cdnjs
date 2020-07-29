@@ -1,18 +1,1 @@
-{
-  "name": "graphael",
-  "filename": "g.raphael-min.js",
-  "version": "0.5.1",
-  "description": "gRaphael's goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.",
-  "homepage": "http://g.raphaeljs.com/",
-  "keywords": [
-    "chart",
-    "charts",
-    "charting",
-    "popular"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/DmitryBaranovskiy/g.raphael/"
-  },
-  "license": "MIT"
-}
+{"description":"gRaphael's goal is to help you create stunning charts on your website. It is based on Raphaël graphics library.","filename":"g.raphael-min.js","homepage":"http://g.raphaeljs.com/","keywords":["chart","charts","charting","popular"],"license":"MIT","name":"graphael","repository":{"type":"git","url":"https://github.com/DmitryBaranovskiy/g.raphael/"},"version":"0.5.1"}

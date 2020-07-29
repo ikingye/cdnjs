@@ -1,17 +1,1 @@
-{
-  "name": "cookiejar",
-  "filename": "cookiejar.min.js",
-  "version": "0.5.1",
-  "description": "JavaScript code to store data as JSON strings in cookies. It uses Prototype.js 1.5.1 (http://prototypejs.org) or later. Apache Software licensed",
-  "homepage": "http://www.lalit.org/lab/jsoncookies",
-  "keywords": [
-    "javascript",
-    "cookies",
-    "json"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/walterdavis/cookiejar.git"
-  },
-  "license": "Apache-2.0"
-}
+{"description":"JavaScript code to store data as JSON strings in cookies. It uses Prototype.js 1.5.1 (http://prototypejs.org) or later. Apache Software licensed","filename":"cookiejar.min.js","homepage":"http://www.lalit.org/lab/jsoncookies","keywords":["javascript","cookies","json"],"license":"Apache-2.0","name":"cookiejar","repository":{"type":"git","url":"https://github.com/walterdavis/cookiejar.git"},"version":"0.5.1"}

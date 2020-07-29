@@ -1,17 +1,1 @@
-{
-  "name": "backbone.ribs",
-  "filename": "backbone.ribs.min.js",
-  "version": "0.2.2",
-  "description": "Deep get/set, bindings and computed model attributes for Backbone.",
-  "homepage": "https://github.com/ZaValera/backbone.ribs/wiki",
-  "keywords": [
-    "backbone",
-    "ribs"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ZaValera/backbone.ribs.git"
-  },
-  "license": "MIT",
-  "author": "Valeriy Zaitsev <ZaValera@gmail.com>"
-}
+{"authors":[{"name":"Valeriy Zaitsev","email":"ZaValera@gmail.com"}],"description":"Deep get/set, bindings and computed model attributes for Backbone.","filename":"backbone.ribs.min.js","homepage":"https://github.com/ZaValera/backbone.ribs/wiki","keywords":["backbone","ribs"],"license":"MIT","name":"backbone.ribs","repository":{"type":"git","url":"https://github.com/ZaValera/backbone.ribs.git"},"version":"0.2.2","author":"Valeriy Zaitsev <ZaValera@gmail.com>"}

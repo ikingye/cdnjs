@@ -1,17 +1,1 @@
-{
-  "name": "jcalculator",
-  "filename": "jcalculator.min.js",
-  "version": "1403955268",
-  "description": "Awesome jQuery plugin for calculator inputs",
-  "homepage": "http://mariusbalaj.com/dev/jcalculator/",
-  "keywords": [
-    "calculator",
-    "jquery",
-    "input"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/balajmarius/jcalculator.git"
-  },
-  "author": "balajmarius"
-}
+{"authors":[{"name":"balajmarius"}],"description":"Awesome jQuery plugin for calculator inputs","filename":"jcalculator.min.js","homepage":"http://mariusbalaj.com/dev/jcalculator/","keywords":["calculator","jquery","input"],"name":"jcalculator","repository":{"type":"git","url":"https://github.com/balajmarius/jcalculator.git"},"version":"1403955268","author":"balajmarius"}

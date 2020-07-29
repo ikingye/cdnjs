@@ -1,16 +1,1 @@
-{
-  "name": "jquery.rest",
-  "filename": "jquery.rest.min.js",
-  "version": "1.0.2",
-  "description": "A jQuery plugin for easy consumption of RESTful APIs",
-  "keywords": [
-    "jquery",
-    "rest",
-    "api"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jpillora/jquery.rest"
-  },
-  "license": "MIT"
-}
+{"description":"A jQuery plugin for easy consumption of RESTful APIs","filename":"jquery.rest.min.js","keywords":["jquery","rest","api"],"license":"MIT","name":"jquery.rest","repository":{"type":"git","url":"https://github.com/jpillora/jquery.rest"},"version":"1.0.2"}

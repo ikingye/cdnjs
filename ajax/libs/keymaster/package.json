@@ -1,16 +1,1 @@
-{
-  "name": "keymaster",
-  "filename": "keymaster.min.js",
-  "description": "library for defining and dispatching keyboard shortcuts",
-  "version": "1.6.1",
-  "keywords": [
-    "hotkeys",
-    "hotkey"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/madrobby/keymaster"
-  },
-  "license": "MIT",
-  "author": "Thomas Fuchs <thomas@slash7.com> (http://mir.aculo.us)"
-}
+{"authors":[{"name":"Thomas Fuchs","email":"thomas@slash7.com","url":"http://mir.aculo.us"}],"description":"library for defining and dispatching keyboard shortcuts","filename":"keymaster.min.js","keywords":["hotkeys","hotkey"],"license":"MIT","name":"keymaster","repository":{"type":"git","url":"https://github.com/madrobby/keymaster"},"version":"1.6.1","author":"Thomas Fuchs <thomas@slash7.com> (http://mir.aculo.us)"}

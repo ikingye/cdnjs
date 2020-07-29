@@ -1,17 +1,1 @@
-{
-  "name": "arbor",
-  "filename": "arbor.min.js",
-  "version": "0.91.0",
-  "description": "a graph visualization library using web workers and jQuery",
-  "keywords": [
-    "graph",
-    "visualization"
-  ],
-  "homepage": "http://arborjs.org",
-  "author": "samizdatco",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/samizdatco/arbor"
-  },
-  "license": "MIT"
-}
+{"authors":[{"name":"samizdatco"}],"description":"a graph visualization library using web workers and jQuery","filename":"arbor.min.js","homepage":"http://arborjs.org","keywords":["graph","visualization"],"license":"MIT","name":"arbor","repository":{"type":"git","url":"https://github.com/samizdatco/arbor"},"version":"0.91.0","author":"samizdatco"}
