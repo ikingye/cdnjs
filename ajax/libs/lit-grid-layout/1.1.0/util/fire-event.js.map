@@ -1,0 +1,1 @@
+{"version":3,"file":"fire-event.js","sourceRoot":"","sources":["../../src/util/fire-event.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,SAAS,GAAG,CACvB,MAAmB,EACnB,KAAa,EACb,SAA8B,EAAE,EAC1B,EAAE;IACR,MAAM,CAAC,aAAa,CAAC,IAAI,WAAW,CAAC,KAAK,EAAE,EAAE,MAAM,EAAE,CAAC,CAAC,CAAC;AAC3D,CAAC,CAAC"}

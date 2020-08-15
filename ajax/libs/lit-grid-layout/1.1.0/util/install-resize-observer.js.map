@@ -1,0 +1,1 @@
+{"version":3,"file":"install-resize-observer.js","sourceRoot":"","sources":["../../src/util/install-resize-observer.ts"],"names":[],"mappings":"AAAA,MAAM,CAAC,MAAM,qBAAqB,GAAG,KAAK,IAAmB,EAAE;IAC7D,IAAI,OAAO,cAAc,KAAK,UAAU,EAAE;QACxC,MAAM,CAAC,cAAc,GAAG,CAAC,MAAM,MAAM,CAAC,0BAA0B,CAAC,CAAC,CAAC,OAAO,CAAC;KAC5E;AACH,CAAC,CAAC"}

@@ -1,0 +1,1 @@
+{"version":3,"file":"get-all-intersects.js","sourceRoot":"","sources":["../../src/util/get-all-intersects.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,UAAU,EAAE,MAAM,cAAc,CAAC;AAE1C,MAAM,CAAC,MAAM,gBAAgB,GAAG,CAC9B,MAAc,EACd,UAAsB,EACH,EAAE;IACrB,OAAO,MAAM,CAAC,MAAM,CAAC,CAAC,CAAC,EAAE,EAAE,CAAC,UAAU,CAAC,CAAC,EAAE,UAAU,CAAC,CAAC,CAAC;AACzD,CAAC,CAAC"}
